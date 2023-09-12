@@ -154,81 +154,6 @@ h5 {
 }
 
 
-.bouton_voir {
-    background-color: rgb(15, 15, 49);
-    color: white;
-    text-decoration: none;
-    padding: 7px 28px;
-    margin-left: 45%;
-    font-size: 25px;
-}
-
-.bouton-cfd a {
-    background-color: rgb(21, 111, 255);
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 42%;
-    margin-right: 40%;
-    border-radius: 15px;
-    font-family: Helvetica, sans-serif;
-}
-
-.bouton-cfd a:hover {
-    color: red;
-}
-
-.bouton_cpf {
-    background-color: black;
-    color: white;
-    width: fit-content;
-    padding: 5px 10px;
-    font-size: 15px;
-    margin-left: 80%;
-    border-radius: 30px;
-}
-
-.bouton-cpf {
-    background-color: rgb(251, 246, 106);
-    color: rgb(87, 87, 204);
-    text-decoration: none;
-    padding: 7px 17px;
-    margin-left: 31%;
-    font-size: 22px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
-
-.bouton-cpf2 {
-    background-color: rgb(66, 126, 255);
-    color: white;
-    text-decoration: none;
-    padding: 7px 17px;
-    margin-left: 10%;
-    font-size: 22px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
-
-.bouton-paiement {
-    background-color: rgb(66, 126, 255);
-    color: white;
-    text-decoration: none;
-    padding: 8px 20px;
-    margin-left: 45%;
-    font-size: 25px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 25px;
-}
-
 .site-catalogue p,
 .site-ecommerce p,
 .site-vitrine p {
@@ -1539,7 +1464,6 @@ ul {
     .iconwhatsapp {
         color: #1bb600;
     }
-
 
     .titre-mouvent,
     .rectangle_orange,
