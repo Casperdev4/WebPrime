@@ -22,6 +22,15 @@ p {
     margin-right: 5%;
 }
 
+.p-img123 {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+}
+
 .details-offres {
     text-align: left;
     margin-top: 2%;
@@ -1472,7 +1481,6 @@ ul {
         width: 100%;
         background-color: #ffd9a1;
         padding: 2%;
-        border-radius: 20px;
     }
 
     .titre-mouvent,
