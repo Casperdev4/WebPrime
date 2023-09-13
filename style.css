@@ -1465,6 +1465,16 @@ ul {
         color: #1bb600;
     }
 
+    .p-img123 {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        background-color: #ffd9a1;
+        padding: 2%;
+        border-radius: 20px;
+    }
+
     .titre-mouvent,
     .rectangle_orange,
     .plan-tarif-container,
