@@ -945,9 +945,8 @@ ul {
 
 .navbar__logo img {
     display: flex;
-    height: 1em;
+    height: 18em;
     font-size: 100%;
-
 }
 
 .navbar__links {
