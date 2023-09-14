@@ -297,24 +297,6 @@ h5 {
     }
 }
 
-.d1:hover {
-    animation-play-state: paused;
-}
-
-
-@keyframes defilement1 {
-    0% {
-        transform: translate(0, 0);
-    }
-
-    100% {
-        transform: translate(-2880px, 0);
-    }
-}
-
-.d2:hover {
-    animation-play-state: paused;
-}
 
 .titre-mouvent *,
 ::before,
@@ -1087,7 +1069,9 @@ ul {
 /*  Small device */
 @media screen and (max-width:767.98px) {
 
-    p, h1, h2 {
+    p,
+    h1,
+    h2 {
         margin-top: 7%;
         margin-bottom: 7%;
     }
@@ -1459,7 +1443,7 @@ ul {
         background: #ffbd59;
         color: #ffffff;
     }
-    
+
     .plan-web__title {
         font-size: 1.2em;
         font-weight: 400;
@@ -1506,7 +1490,7 @@ ul {
         display: block;
         text-align: center;
         margin-bottom: 1%;
-    
+
     }
 
     .iconwhatsapp {
@@ -1539,7 +1523,96 @@ ul {
         margin-top: 10%;
     }
 
-    .titre-mouvent,
+    .titre-mouvent *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titre-mouvent {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px 0 0 0;
+        margin-bottom: 15%;
+    }
+
+    .titre-mouvent p {
+        text-transform: uppercase;
+        color: #222;
+        font-weight: 900;
+        color: transparent;
+        font-size: 0px;
+    }
+
+    p span {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        font-size: clamp(20px, 8vw, 120px);
+    }
+
+    p span::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+    }
+
+    p:nth-child(1) {
+        font-weight: 300;
+        animation: txt-appearance 0s 1s forwards;
+    }
+
+    p:nth-child(2) {
+        animation: txt-appearance 0s 1.25s forwards;
+    }
+
+    p:nth-child(1) span::after {
+        background: rgb(85, 213, 35);
+        animation: slide-in 0.75s ease-out forwards,
+            slide-out 0.75s 1s ease-out forwards;
+    }
+
+    p:nth-child(2) span::after {
+        background: royalblue;
+        animation: slide-in 0.75s 0.3s ease-out forwards,
+            slide-out 0.75s 1.3s ease-out forwards;
+    }
+
+    @keyframes slide-in {
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes slide-out {
+        100% {
+            transform: translateX(100%)
+        }
+    }
+
+    @keyframes txt-appearance {
+        100% {
+            color: #222;
+        }
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Poppins : 100,200,300,400,500,600,700,800,900');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
     .rectangle_orange,
     .plan-tarif-container,
     .plan-carte-container,
@@ -1547,12 +1620,14 @@ ul {
     .plan-web-container,
     .images-index123,
     .formu-contact-bleu,
-    .formu-tarif, .image-description a:hover {
+    .formu-tarif,
+    .image-description a:hover {
         display: none;
     }
 
 
 }
+
 @media screen and (max-width:376px) {
 
     h1 {
