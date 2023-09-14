@@ -270,7 +270,6 @@ h5 {
 }
 
 
-
 .triple-image {
     overflow: hidden;
     max-width: 960px;
@@ -565,7 +564,7 @@ p:nth-child(2) span::after {
 
 .plan-web__title,
 .plan-web__summary {
-    margin: O;
+    margin: auto;
     text-align: center;
 }
 
@@ -615,10 +614,7 @@ p:nth-child(2) span::after {
     font-size: 30px;
     display: flex;
     justify-content: center;
-    background-color: white;
     border-radius: 50px;
-    margin-left: 38%;
-    margin-right: 38%;
     color: #007c64;
 }
 
@@ -1263,7 +1259,7 @@ ul {
 
     .formu {
         width: 90%;
-        height: 90%;
+        height: 95%;
     }
 
     .formu h2 {
@@ -1331,7 +1327,7 @@ ul {
         border: 0;
         outline: none;
         cursor: pointer;
-        width: 150px;
+        width: 140px;
         border-radius: 30px;
     }
 
@@ -1339,7 +1335,9 @@ ul {
     .formu-test h2 {
         color: #5a5a5a;
         font-weight: 400;
-        margin-bottom: 10%;
+        margin-top: 2%;
+        margin-bottom: 6%;
+        font-size: 28px;
     }
 
     .formu-tarif-mobile {
@@ -1360,7 +1358,7 @@ ul {
         display: flex;
         flex-direction: column;
         padding: 2vw 4vw;
-        width: 90%;
+        width: 80%;
         height: 55%;
         border-radius: 20px;
         display: flex;
@@ -1384,9 +1382,9 @@ ul {
     .formu-tarif-mob h2 {
         color: #5a5a5a;
         font-weight: 400;
-        margin-bottom: 4%;
+        margin-bottom: 5%;
         margin-top: 0;
-        font-size: 25px;
+        font-size: 26px;
     }
 
     .formu-tarif-mob button:hover {
@@ -1437,6 +1435,37 @@ ul {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .plan-web {
+        height: 585px;
+        width: 230px;
+        border-radius: 25px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #555555;
+        margin: 15px;
+        margin-top: 5%;
+    }
+
+    .plan-web__description {
+        padding: 10px;
+    }
+
+    .plan-web__header {
+        padding: 14px;
+        background: #ffbd59;
+        color: #ffffff;
+    }
+    
+    .plan-web__title {
+        font-size: 1.2em;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 7%;
     }
 
     .images-mobile-index1,
@@ -1493,6 +1522,24 @@ ul {
         padding: 2%;
     }
 
+    .image-description {
+        margin-top: 15px;
+        background-color: #8ae7d7;
+        padding: 3%;
+        text-align: center;
+        font-size: 21px;
+        border-radius: 35px;
+        width: 55%;
+    }
+
+    .triple-image {
+        overflow: hidden;
+        max-width: 960px;
+        box-shadow: 0px 15px 10px -5px #777;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
     .titre-mouvent,
     .rectangle_orange,
     .plan-tarif-container,
@@ -1501,8 +1548,148 @@ ul {
     .plan-web-container,
     .images-index123,
     .formu-contact-bleu,
-    .formu-tarif {
+    .formu-tarif, .image-description a:hover {
         display: none;
+    }
+
+
+}
+@media screen and (max-width:376px) {
+
+    h1 {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    .formu-test h2 {
+        color: #5a5a5a;
+        font-weight: 400;
+        margin-bottom: 7%;
+        font-size: 23px;
+    }
+
+    .formu-test {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 80%;
+        height: 65%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formu-tester {
+        width: 100%;
+        height: 35vh;
+        background-color: #8ae7d7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formu-contact {
+        width: 90%;
+        height: 65vh;
+        background-color: #ffbd59;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        background-image: url(img-formu.png);
+    }
+
+    .formu {
+        width: 90%;
+        height: 90%;
+    }
+
+    .formu h2 {
+        font-size: 1.4em;
+    }
+
+    .formu input,
+    textarea {
+        border: 0;
+        margin: 3% 0;
+        padding-left: 5%;
+        outline: none;
+        background: #f5f5f5;
+        font-size: 23px;
+        border-radius: 10px;
+    }
+
+    .formu ::placeholder {
+        font-size: 70%;
+
+    }
+
+    .formu button {
+        padding: 15px;
+        background: #0cbcf2;
+        color: #EDEDED;
+        font-size: 18px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 150px;
+        margin-bottom: 3%;
+        border-radius: 30px;
+    }
+
+    .formu-tarif-mobile {
+        width: 100%;
+        height: 28vh;
+        background-color: #8ae7d7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .formu-tarif-mob {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 80%;
+        height: 55%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formu-tarif-mob button {
+        padding: 15px;
+        background: #0cbcf2;
+        color: #EDEDED;
+        font-size: 18px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 120px;
+        height: 50px;
+        border-radius: 30px;
+    }
+
+    .formu-tarif-mob h2 {
+        color: #5a5a5a;
+        font-weight: 400;
+        margin-bottom: 2%;
+        margin-top: 0;
+        font-size: 26px;
     }
 
 
