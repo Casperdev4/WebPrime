@@ -1549,7 +1549,7 @@ ul {
         width: 100%;
         margin: 0 auto;
         padding: 50px 0 0 0;
-        margin-bottom: 15%;
+        margin-bottom: 12%;
     }
 
     .titre-mouvent p {
@@ -1589,7 +1589,7 @@ ul {
     }
 
     p:nth-child(1) span::after {
-        background: #8ae7d7;
+        background: #afe7de;
         animation: slide-in 0.75s ease-out forwards,
             slide-out 0.75s 1s ease-out forwards;
     }
