@@ -1507,6 +1507,15 @@ ul {
 
     .iconwhatsapp {
         color: #1bb600;
+        font-size: 22px;
+    }
+
+    .icon-mail {
+        font-size: 20px;
+    }
+
+    .icon-tel {
+        font-size: 20px;
     }
 
     .p-img123 {
