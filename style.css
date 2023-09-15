@@ -349,13 +349,13 @@ p:nth-child(2) {
 }
 
 p:nth-child(1) span::after {
-    background: rgb(85, 213, 35);
+    background: #afe7de;
     animation: slide-in 0.75s ease-out forwards,
         slide-out 0.75s 1s ease-out forwards;
 }
 
 p:nth-child(2) span::after {
-    background: royalblue;
+    background: rgb(254, 218, 139);
     animation: slide-in 0.75s 0.3s ease-out forwards,
         slide-out 0.75s 1.3s ease-out forwards;
 }
@@ -948,7 +948,6 @@ ul {
 }
 
 .show-nav .navbar__links {
-
     width: 100vw;
     transform: translateX(0);
 }
