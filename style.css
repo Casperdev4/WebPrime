@@ -1416,8 +1416,9 @@ ul {
     }
 
     .details-offres {
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        font-size: 1em;
     }
 
     .plan-tarif__text2 {
@@ -1428,8 +1429,8 @@ ul {
     }
 
     .plan-tarif-mobile1,
-    .plan-tarif-mobile2,
-    .plan-tarif-mobile3 {
+    #plan-tarif-mobile2,
+    #plan-tarif-mobile3 {
         display: flex;
         justify-content: center;
         margin-top: 5%;
