@@ -1421,13 +1421,6 @@ ul {
         font-size: 1em;
     }
 
-    .plan-tarif__text2 {
-        margin: 0;
-        text-align: center;
-        font-size: 1em;
-        color: #000000;
-    }
-
     .plan-tarif-mobile1,
     #plan-tarif-mobile2,
     #plan-tarif-mobile3 {
@@ -1435,6 +1428,13 @@ ul {
         justify-content: center;
         margin-top: 5%;
         margin-bottom: 5%;
+    }
+
+    #plan-tarif-mobile2 {
+        display: flex;
+        justify-content: center;
+        border: 10px solid transparent; /* Remplace la marge supérieure et inférieure */
+        padding: 10px; /* Ajoute un espacement à l'intérieur de la div */
     }
 
     .plan-tarifs-carte1,
