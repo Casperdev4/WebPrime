@@ -1455,7 +1455,24 @@ ul {
     .plan-avantage-mobile1 .plan-avantage,
     .plan-avantage-mobile2 .plan-avantage,
     .plan-avantage-mobile3 .plan-avantage {
-        height: 470px;
+        height: 445px;
+    }
+
+    .plan-avantage-mobile4 .plan-avantage,
+    .plan-avantage-mobile5 .plan-avantage,
+    .plan-avantage-mobile6 .plan-avantage {
+        height: 565px;
+    }
+
+    .plan-avantage-mobile7 .plan-avantage,
+    .plan-avantage-mobile8 .plan-avantage,
+    .plan-avantage-mobile9 .plan-avantage {
+        height: 577px;
+    }
+
+    .plan-avantage__title {
+        margin-top: 3%;
+        margin-bottom: 5%;
     }
 
     .plan-web-mobile1,
