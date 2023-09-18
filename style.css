@@ -1457,7 +1457,7 @@ ul {
     .plan-avantage-mobile1 .plan-avantage,
     .plan-avantage-mobile2 .plan-avantage,
     .plan-avantage-mobile3 .plan-avantage {
-        height: 450px;
+        height: 470px;
     }
 
     .plan-web-mobile1,
@@ -1469,7 +1469,7 @@ ul {
     }
 
     .plan-web {
-        height: 585px;
+        height: 570px;
         width: 230px;
         border-radius: 25px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -1520,6 +1520,7 @@ ul {
     .liens-utiles2 {
         width: 70%;
         margin-bottom: 10%;
+        margin-top: 10%;
         background-color: #afe7de;
         padding-top: 1px;
         padding-bottom: 5%;
