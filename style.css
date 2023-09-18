@@ -1106,8 +1106,8 @@ ul {
     }
 
     h1 {
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 4%;
+        margin-left: 4%;
         margin-top: 10%;
         margin-bottom: 10%;
     }
@@ -1709,14 +1709,14 @@ ul {
     }
 
     .etape-mobile {
-        width: 95%;
+        width: 91%;
         background-color: #e0e0e059;
         padding-left: 3%;
         padding-right: 3%;
         padding-top: 4%;
         padding-bottom: 8%;
-        margin-top: 7%;
-        margin-bottom: 7%;
+        margin-top: 8%;
+        margin-bottom: 8%;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 2px 3px 0px 2px #d0d0d0;
