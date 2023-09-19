@@ -17,6 +17,22 @@
 
 <url>
 <loc>https://webprime.fr/siteweb.html</loc>
+    <image:image>
+        <image:loc>https://www.webprime.fr/site-vitrine.png</image:loc>
+        <image:caption>image-site-vitrine</image:caption>
+        <image:title>site-vitrine</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.webprime.fr/site-catalogue.png</image:loc>
+        <image:caption>image-site-catalogue</image:caption>
+        <image:title>site-catalogue</image:title>
+    </image:image>
+        </image:image>
+        <image:image>
+        <image:loc>https://www.webprime.fr/site-e-commerce.png</image:loc>
+        <image:caption>image-site-e-commerce</image:caption>
+        <image:title>site-e-commerce</image:title>
+    </image:image>
 </url>
 
 <url>
