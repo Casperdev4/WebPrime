@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+
 <url>
 <loc>https://webprime.fr/index.html</loc>
+    <image:image>
+        <image:loc>https://www.webprime.fr/siteweb.jpg</image:loc>
+        <image:caption>image-creation-sites-web</image:caption>
+        <image:title>creation-sites-web</image:title>
+    </image:image>
+        <image:image>
+        <image:loc>https://www.webprime.fr/referencement-seo.jpg</image:loc>
+        <image:caption>image-referencement-seo</image:caption>
+        <image:title>referencement-seo</image:title>
+    </image:image>
 </url>
+
 <url>
 <loc>https://webprime.fr/siteweb.html</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/seo.html</loc>
+    <image:image>
+        <image:loc>https://www.webprime.fr/ads.webp</image:loc>
+        <image:caption>image-Google-Ads</image:caption>
+        <image:title>google-ads</image:title>
+    </image:image>
 </url>
+
 <url>
 <loc>https://webprime.fr/tarif.html</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/tel:0767930456</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/Mentionslegales.html</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/CGV.html</loc>
 </url>
+
 </urlset>
