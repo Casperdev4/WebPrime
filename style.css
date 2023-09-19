@@ -1751,13 +1751,24 @@ ul {
     .image_general {
         display: flex;
         justify-content: center;
-        margin-top: 5%;
-        margin-bottom: 8%;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     
     .image_general img {
         width: 90%;
         border-radius: 50px;
+    }
+
+    .image_general-siteweb {
+        display: flex;
+        justify-content: center;
+        margin-top: -7%;
+        margin-bottom: -6%;
+    }
+
+    .image_general-siteweb img {
+        width: 90%;
     }
 
     .rectangle_orange,
