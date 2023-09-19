@@ -876,8 +876,8 @@ textarea {
 }
 
 .plan-tarif-mobile1,
-.plan-tarif-mobile2,
-.plan-tarif-mobile3,
+#plan-tarif-mobile2,
+#plan-tarif-mobile3,
 .plan-tarifs-carte1,
 .plan-tarifs-carte2,
 .plan-tarifs-carte3,
@@ -1117,6 +1117,10 @@ ul {
 
     p {
         font-size: 17px;
+    }
+
+    .p-prelevement {
+        font-size: 16px;
     }
 
     .navbar__links {
@@ -1512,6 +1516,13 @@ ul {
         font-weight: 400;
         color: #ffffff;
         margin-bottom: 7%;
+    }
+
+    .plan-tarif__text2 {
+        margin: 0;
+        text-align: center;
+        font-size: 0.95em;
+        color: #000000;
     }
 
     .images-mobile-index1,
