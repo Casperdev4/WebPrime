@@ -543,16 +543,6 @@ p:nth-child(2) span::after {
     color: #000000;
 }
 
-.plan-tarif-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-.tarif-carte p {
-    text-align: left;
-}
 
 .plan-web {
     height: 540px;
@@ -1137,7 +1127,7 @@ ul {
 .images-mobile-index2,
 .images-mobile-index3,
 .formu-contact-bleu-mobile,
-.formu-tarif-mobile {
+.formu-tarif-mobile, .plan-carteee-mobile {
     display: none;
 }
 
@@ -1488,10 +1478,6 @@ ul {
         padding: 10px; /* Ajoute un espacement à l'intérieur de la div */
     }
 
-    .plan-tarifs-carte1,
-    .plan-tarifs-carte2,
-    .plan-tarifs-carte3,
-    .plan-tarifs-carte4,
     .plan-avantage-mobile1,
     .plan-avantage-mobile2,
     .plan-avantage-mobile3,
@@ -1820,9 +1806,142 @@ ul {
         width: 90%;
     }
 
+    .plan-carteee-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .plan-carteee {
+        width: 250px;
+        border-radius: 25px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #555555;
+        margin: 15px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    .plan-carteee__highlighted {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        transform: scale(1.05);
+    }
+    
+    .plan-carteee__special-text {
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        color: #ffffff;
+        background: #ffae34;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+    }
+    
+    .plan-carteee__header {
+        padding: 25px;
+        background: #ffbd59;
+        color: #ffffff;
+    }
+    
+    .plan-carteee__title,
+    .plan-carteee__summary {
+        margin: O;
+        text-align: center;
+    }
+    
+    .plan-carteee__title {
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    .plan-carteee__summary {
+        font-size: 1em;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    
+    .plan-carteee__description {
+        padding: 25px;
+    }
+    
+    .plan-carteee__list {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .plan-carteee__feature {
+        list-style: none;
+        margin: O;
+        padding-left: 10px;
+        position: relative;
+        font-size: 0.9em;
+    }
+    
+    .plan-carteee__feature:not(:last-child) {
+        margin-bottom: 0.5em;
+    }
+    
+    .plan-carteee__feature::before {
+        content: "\2714";
+        color: #1bb600;
+        left: 0;
+    }
+    
+    .plan-carteee__actions {
+        padding: 25px;
+        border-top: 1px solid #eeeeee;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .plan-carteee__button {
+        display: inline-block;
+        margin: 15px auto;
+        margin-top: 1%;
+        padding: 8px 20px;
+        text-decoration: none;
+        color: #ffffff;
+        background: #ffbd59;
+        border-radius: 5px;
+        border: 1px solid #ffbd59;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        font-weight: bold;
+    }
+    
+    
+    .plan-carteee__cost {
+        margin: 0;
+        text-align: center;
+        font-size: 1.6em;
+        color: #000000;
+    }
+    
+    .plan-carteee__text {
+        font-size: 1em;
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+    
+    .plan-carteee__text2 {
+        margin: 0;
+        text-align: center;
+        font-size: 0.9em;
+        color: #000000;
+    }
+    
+    .plan-carteee-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
     .rectangle_orange,
     .plan-tarif-container,
-    .plan-carte-container,
     .plan-avantage-container,
     .plan-web-container,
     .images-index123,
