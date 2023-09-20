@@ -13,6 +13,17 @@
         <image:caption>image-referencement-seo</image:caption>
         <image:title>referencement-seo</image:title>
     </image:image>
+        </image:image>
+        <image:image>
+        <image:loc>https://www.webprime.fr/google-page-speed-insights.png</image:loc>
+        <image:caption>image-google-page-speed-insights</image:caption>
+        <image:title>google-page-speed-insights</image:title>
+    </image:image>    </image:image>
+        <image:image>
+        <image:loc>https://www.webprime.fr/page-speed-insights.png</image:loc>
+        <image:caption>image-google-page-speed-insights</image:caption>
+        <image:title>google-page-speed-insights</image:title>
+    </image:image>
 </url>
 
 <url>
