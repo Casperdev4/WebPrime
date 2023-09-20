@@ -875,31 +875,18 @@ textarea {
     padding: 10px;
 }
 
-.plan-tarif-mobile1,
-#plan-tarif-mobile2,
-#plan-tarif-mobile3,
-.plan-tarifs-carte1,
-.plan-tarifs-carte2,
-.plan-tarifs-carte3,
-.plan-tarifs-carte4,
-.plan-avantage-mobile1,
-.plan-avantage-mobile2,
-.plan-avantage-mobile3,
-.plan-avantage-mobile4,
-.plan-avantage-mobile5,
-.plan-avantage-mobile6,
-.plan-avantage-mobile7,
-.plan-avantage-mobile8,
-.plan-avantage-mobile9,
-.plan-web-mobile1,
-.plan-web-mobile2,
-.plan-web-mobile3,
-.images-mobile-index1,
-.images-mobile-index2,
-.images-mobile-index3,
-.formu-contact-bleu-mobile,
-.formu-tarif-mobile {
-    display: none;
+.etape-mobile {
+    width: 91%;
+    background-color: #e0e0e059;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 3px 0px 2px #d0d0d0;
 }
 
 /* Navigation */
@@ -1090,6 +1077,64 @@ ul {
 
 .navbar__link:hover>a::after {
     width: 50%;
+}
+
+.liens-utiles2 {
+    width: 70%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    background-color: #afe7de;
+    padding-top: 1px;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.liens-utiles2 a:hover {
+    color: #0cbcf2;
+
+}
+
+.liens-utiles2 h2 {
+    font-size: 23px;
+    margin-bottom: 3%;
+}
+
+.liens-utiles2 a {
+    text-decoration: none;
+    color: #555555;
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+
+}
+
+.plan-tarif-mobile1,
+#plan-tarif-mobile2,
+#plan-tarif-mobile3,
+.plan-tarifs-carte1,
+.plan-tarifs-carte2,
+.plan-tarifs-carte3,
+.plan-tarifs-carte4,
+.plan-avantage-mobile1,
+.plan-avantage-mobile2,
+.plan-avantage-mobile3,
+.plan-avantage-mobile4,
+.plan-avantage-mobile5,
+.plan-avantage-mobile6,
+.plan-avantage-mobile7,
+.plan-avantage-mobile8,
+.plan-avantage-mobile9,
+.plan-web-mobile1,
+.plan-web-mobile2,
+.plan-web-mobile3,
+.images-mobile-index1,
+.images-mobile-index2,
+.images-mobile-index3,
+.formu-contact-bleu-mobile,
+.formu-tarif-mobile {
+    display: none;
 }
 
 
