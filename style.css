@@ -420,6 +420,12 @@ p:nth-child(2) span::after {
     font-family: 'Poppins', sans-serif;
 }
 
+.plan-tarif-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
 
 .plan-tarif {
     width: 300px;
