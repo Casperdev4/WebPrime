@@ -2084,6 +2084,20 @@ ul {
         padding: 10px;
     }
 
+    .contact-icon-whatsapp {
+        display: block;
+        position: sticky;
+        float: right;
+        bottom: 3%;
+        margin-right: 5%;
+        font-size: 45px;
+    }
+
+    .contact-icon-whatsapp a {
+        color: #007c64;
+        text-decoration: none;
+    }
+
     .rectangle_orange,
     .plan-tarif-container,
     .plan-avantage-container,
