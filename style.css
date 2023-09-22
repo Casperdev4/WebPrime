@@ -1251,7 +1251,8 @@ ul {
 .images-mobile-index3,
 .formu-contact-bleu-mobile,
 .formu-tarif-mobile,
-.plan-carteee-mobile {
+.plan-carteee-mobile,
+.formu-contact {
     display: none;
 }
 
@@ -2092,7 +2093,8 @@ ul {
     .formu-contact-bleu,
     .formu-tarif,
     .image-description a:hover,
-    .plan-carteee-container {
+    .plan-carteee-container,
+    .formu-contact {
         display: none;
     }
 
@@ -2231,6 +2233,10 @@ ul {
         margin-bottom: 2%;
         margin-top: 0;
         font-size: 26px;
+    }
+
+    .formu-contact {
+        display: none;
     }
 
 
