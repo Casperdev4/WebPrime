@@ -164,32 +164,6 @@ h6 {
     font-weight: 545;
 }
 
-.rectangle_orange {
-    position: relative;
-    background-color: #ffbd59;
-    padding-bottom: 2%;
-    margin-bottom: 7%;
-    margin-top: 7%;
-}
-
-.rectangle_orange p {
-    color: white;
-    text-align: center;
-    padding-top: 3%;
-    font-weight: 100;
-    font-size: 16px;
-}
-
-.icon_rectangle_orange {
-    position: relative;
-
-}
-
-.icon_rectangle_orange ion-icon {
-    font-size: 190%;
-    margin-left: 11px;
-}
-
 .icon-paypal {
     color: #2651b5;
     font-size: 22px;
