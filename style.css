@@ -1473,7 +1473,7 @@ ul {
 
     .formu-tester {
         width: 100%;
-        height: 40vh;
+        height: 35vh;
         background-color: #8ae7d7;
         display: flex;
         align-items: center;
@@ -1488,7 +1488,7 @@ ul {
         flex-direction: column;
         padding: 2vw 4vw;
         width: 80%;
-        height: 60%;
+        height: 55%;
         border-radius: 20px;
         display: flex;
         align-items: center;
@@ -1511,13 +1511,12 @@ ul {
         margin-top: 13%;
     }
 
-
     .formu-test h2 {
         color: #5a5a5a;
         font-weight: 400;
         margin-top: 2%;
-        margin-bottom: 6%;
-        font-size: 28px;
+        margin-bottom: 7%;
+        font-size: 23px;
     }
 
     .formu-tarif-mobile {
@@ -1696,11 +1695,16 @@ ul {
 
     }
 
+    .liens-utile2-container {
+        background-color: #8ae7d7;
+        padding: 1%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
     .liens-utiles2 {
         width: 70%;
-        margin-bottom: 10%;
-        margin-top: 10%;
-        background-color: #afe7de;
+        background-color: #fff;
         padding-top: 1px;
         padding-bottom: 5%;
         margin-left: auto;
