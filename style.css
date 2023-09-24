@@ -502,7 +502,6 @@ p:nth-child(2) span::after {
     font-weight: bold;
 }
 
-
 .plan-tarif__cost {
     margin: 0;
     text-align: center;
@@ -522,7 +521,6 @@ p:nth-child(2) span::after {
     font-size: 0.9em;
     color: #000000;
 }
-
 
 .plan-web {
     height: 540px;
@@ -898,7 +896,6 @@ textarea {
     letter-spacing: 0.02em;
     font-weight: bold;
 }
-
 
 .plan-carteee__cost {
     margin: 0;
@@ -1982,7 +1979,6 @@ ul {
         letter-spacing: 0.02em;
         font-weight: bold;
     }
-
 
     .plan-carteee__cost {
         margin: 0;
