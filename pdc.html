@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Politique de confidentialité</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./logo/apple-icon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./logo/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./logo/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./logo/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./logo/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./logo/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./logo/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./logo/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./logo/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./logo/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./logo/apple-icon-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./logo/android-icon-192x192.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./logo/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="navigation2">
+        <nav class="navbar light-mode" role="navigation">
+            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/WebPrime 750.png"
+                        alt="Firdaws"></a></div>
+            <ul class="navbar__links">
+                <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+                <li class="navbar__link second"><a href="siteweb.html">Site Web</a></li>
+                <li class="navbar__link third"><a href="seo.html">Référencement</a></li>
+                <li class="navbar__link fifth"><a href="tarif.html">Tarifs</a></li>
+            </ul>
+            <button class="burger">
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </div>
+    <h1>Politique de confidentialité</h1>
+    <h1>Informations que nous recueillons</h1>
+    <h2>Informations d'identification personnelle :</h2>
+    <p>Cela peut inclure votre nom, adresse e-mail, numéro de téléphone et autres informations similaires que vous choisissez de nous fournir.</p>
+    <h2>Informations techniques</h2>
+    <p></p>
+    <h2>Hébergeur <br>Ionos</h2>
+    <p></p>
+    <h2>Hébergeur <br>Ionos</h2>
+    <p></p>
+    <h2>Hébergeur <br>Ionos</h2>
+    <p></p>
+    <h2>Hébergeur <br>Ionos</h2>
+    <p></p>
+    <h2>Hébergeur <br>Ionos</h2>
+    <p></p>
+    <h2>Hébergeur <br>Ionos</h2>
+    <p></p>
+        <div class="liens-utiles">
+            <h2>Contact</h2>
+            <a href="https://wa.me/message/XRFEWEFU4N6DO1"  target="_blank"><ion-icon class="iconwhatsapp" name="logo-whatsapp"></ion-icon>
+                WhatsApp</a>
+            <a href="mailto:contact@webprime.fr"><ion-icon class="icon-mail" name="mail-outline"></ion-icon>
+                contact@webprime.fr</a>
+            <a href="tel:0767930456"><ion-icon class="icon-tel" name="call-outline"></ion-icon> 07 67 93 04 56</a>
+        </div>
+        <div class="liens-utiles">
+            <h2>Liens utiles</h2>
+            <a href="siteweb.html">Création de site web</a>
+            <a href="seo.html">Référencement</a>
+            <a href="tarif.html">Tarifs / Devis</a>
+            <a href="mentionslegales.html" target="_blank">Mentions légales</a>
+            <a href="CGV.html">Conditions générales de vente</a>
+            <a href="pdc.html">Politique de confidentialité</a>
+            <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=FR">Règlement en ligne des litiges</a>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink() {
+                list.forEach((item) =>
+                    item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>
+                item.addEventListener('mouseover', activeLink));
+        </script>
+            <script> function toggleMenu() {
+                const navbar = document.querySelector('.navbar');
+                const burger = document.querySelector('.burger');
+    
+                burger.addEventListener('click', (e) => {
+                    navbar.classList.toggle('show-nav');
+                });
+                // bonus
+                const navbarLinks = document.querySelectorAll('.navbar a');
+                navbarLinks.forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        navbar.classList.toggle('show-nav');
+                    });
+                })
+    
+            }
+            toggleMenu();
+        </script>
+</body>
+
+</html>
