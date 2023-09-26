@@ -931,6 +931,17 @@ textarea {
     box-shadow: 2px 3px 0px 2px #d0d0d0;
 }
 
+.image_general-siteweb {
+    display: flex;
+    justify-content: center;
+    margin-top: -7%;
+    margin-bottom: -6%;
+}
+
+.image_general-siteweb img {
+    width: 50%;
+}
+
 /* Navigation */
 :root {
     --font-size: 1rem;
