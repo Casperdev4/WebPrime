@@ -1548,7 +1548,7 @@ ul {
         justify-content: center;
         border: 10px solid transparent;
         /* Remplace la marge supérieure et inférieure */
-        padding: 10px;
+        padding: 12px;
         /* Ajoute un espacement à l'intérieur de la div */
     }
 
