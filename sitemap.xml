@@ -47,6 +47,11 @@
 <url>
 <loc>https://webprime.fr/referencement.html</loc>
     <image:image>
+        <image:loc>https://www.webprime.fr/seo.png</image:loc>
+        <image:caption>image-referencement-naturel</image:caption>
+        <image:title>referencement-naturel</image:title>
+    </image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/ads.webp</image:loc>
         <image:caption>image-google-ads</image:caption>
         <image:title>google-ads</image:title>
