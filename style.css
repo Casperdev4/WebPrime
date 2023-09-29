@@ -87,6 +87,7 @@ h5 {
 }
 
 .liens-utiles {
+    margin-top: 8%;
     margin-bottom: 4%;
 }
 
@@ -257,7 +258,6 @@ h5 {
     border-radius: 50%;
 }
 
-
 .triple-image {
     overflow: hidden;
     max-width: 960px;
@@ -284,7 +284,6 @@ h5 {
         transform: translate(-2880px, 0);
     }
 }
-
 
 .titre-mouvent *,
 ::before,
@@ -577,7 +576,6 @@ p:nth-child(2) span::after {
     border-radius: 50px;
     color: #007c64;
 }
-
 
 .formu-tarif {
     width: 100%;
