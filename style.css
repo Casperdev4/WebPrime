@@ -72,31 +72,12 @@ h3 {
     margin-top: 3%;
 }
 
-h4 {
-    color: #222;
-    text-align: left;
-    font-weight: 550;
-    font-size: 1.13em;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-left: 2%;
-}
-
 h5 {
     margin-top: 10%;
     text-align: center;
     font-size: 25px;
     font-weight: 350;
     color: #222;
-}
-
-h6 {
-    color: #222;
-    font-size: 0.93em;
-    text-align: left;
-    font-weight: 100;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 .hr {
@@ -1175,6 +1156,39 @@ ul {
     margin-top: 20%;
 }
 
+.etape-mobile {
+    width: 85%;
+    background-color: #e0e0e059;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 3px 0px 2px #d0d0d0;
+}
+
+.etape-mobile h4 {
+    color: #222;
+    text-align: left;
+    font-weight: 550;
+    font-size: 1.4em;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+}
+
+.etape-mobile h6 {
+    font-size: 18px;
+    color: #222;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .plan-tarif-mobile1,
 #plan-tarif-mobile2,
 #plan-tarif-mobile3,
@@ -1860,6 +1874,25 @@ ul {
         margin-left: auto;
         margin-right: auto;
         box-shadow: 2px 3px 0px 2px #d0d0d0;
+    }
+
+    .etape-mobile h4 {
+        color: #222;
+        text-align: left;
+        font-weight: 550;
+        font-size: 1.13em;
+        margin-top: 3%;
+        margin-bottom: 4%;
+        margin-left: 2%;
+    }
+
+    .etape-mobile h6 {
+        font-size: 0.93em;
+        color: #222;
+        text-align: left;
+        font-weight: 100;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .image_general {
