@@ -1256,13 +1256,14 @@ ul {
         height: calc(100vh - 65px);
         position: absolute;
         position: fixed;
-        top: 65px;
+        padding-top: 10%;
+        padding-bottom: 100%;
+        top: 0px;
         right: 0;
         background: var(--navbar-bg-color);
         transform: translateX(110%);
         transition: all .5s ease-in-out;
         z-index: 999;
-
     }
 
     .show-nav .navbar__links {
