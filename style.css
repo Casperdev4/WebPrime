@@ -959,7 +959,6 @@ ul {
     background: var(--navbar-bg-color);
     color: var(--navbar-color);
     background-color: #ffbd59;
-
 }
 
 .navbar__link {
@@ -985,7 +984,9 @@ ul {
     height: calc(100vh - 65px);
     position: absolute;
     position: fixed;
-    top: 65px;
+    padding-top: 10%;
+    padding-bottom: 100%;
+    top: 0px;
     right: 0;
     background: var(--navbar-bg-color);
     transform: translateX(110%);
@@ -1075,7 +1076,6 @@ ul {
 .show-nav .bar::after {
     transform: rotate(-45deg);
 }
-
 
 .show-nav .first {
     transition: all 1.1s ease-out;
