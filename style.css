@@ -1576,6 +1576,7 @@ ul {
     .plan-avantage-mobile9 {
         display: flex;
         justify-content: center;
+        margin-top: 3%;
     }
 
     .plan-avantage-mobile1 .plan-avantage,
