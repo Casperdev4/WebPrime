@@ -1669,8 +1669,8 @@ ul {
     .liens-utile2-container {
         background-color: #8ae7d7;
         padding: 1%;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 12%;
+        margin-bottom: 12%;
     }
 
     .liens-utiles2 {
@@ -1700,10 +1700,6 @@ ul {
         text-align: center;
         margin-bottom: 4%;
 
-    }
-
-    .liens-utiles {
-        margin-bottom: 7%;
     }
 
     .liens-utiles a:hover {
