@@ -1204,6 +1204,20 @@ ul {
     margin-right: 2%;
 }
 
+.contact-icon-whatsapp {
+    display: block;
+    position: sticky;
+    float: right;
+    bottom: 4%;
+    margin-right: 5%;
+    font-size: 45px;
+}
+
+.contact-icon-whatsapp a {
+    color: #007c64;
+    text-decoration: none;
+}
+
 .plan-tarif-mobile1,
 #plan-tarif-mobile2,
 #plan-tarif-mobile3,
