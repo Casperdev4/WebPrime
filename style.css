@@ -1211,7 +1211,7 @@ ul {
 .formu-contact-bleu-mobile,
 .formu-tarif-mobile,
 .plan-carteee-mobile,
-.formu-contact {
+.formu-contact, .triple-image {
     display: none;
 }
 
