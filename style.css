@@ -44,6 +44,10 @@ p {
     margin-bottom: 5%;
 }
 
+.text-paypal {
+    text-align: left;
+}
+
 .details-offres {
     text-align: left;
     margin-top: 7%;
@@ -73,6 +77,8 @@ h3 {
 }
 
 h5 {
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 10%;
     text-align: center;
     font-size: 25px;
@@ -2052,6 +2058,18 @@ ul {
     .contact-icon-whatsapp a {
         color: #007c64;
         text-decoration: none;
+    }
+
+    .paypal-prelevement-texte h5 {
+        margin-top: 15%;
+    }
+
+    .paypal-prelevement-texte img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-top: 10%;
     }
 
     .rectangle_orange,
