@@ -1357,7 +1357,11 @@ ul {
 .formu-contact-bleu-mobile,
 .formu-tarif-mobile,
 .plan-carteee-mobile,
-.formu-contact, .triple-image, .bouton-cpf123-mob, .bouton-cpf2-mob, .bouton-cpf3-mob {
+.formu-contact,
+.triple-image,
+.bouton-cpf-mob,
+.bouton-cpf2-mob,
+.bouton-cpf3-mob {
     display: none;
 }
 
@@ -2228,7 +2232,7 @@ ul {
         border-radius: 20px;
     }
 
-   .image_secuinfo {
+    .image_secuinfo {
         display: flex;
         justify-content: center;
         margin-top: 5%;
@@ -2237,12 +2241,6 @@ ul {
 
     .image_secuinfo img {
         width: 80%;
-    }
-
-    .bouton-cpf123-mob {
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .bouton-cpf-mob {
@@ -2285,8 +2283,8 @@ ul {
     }
 
     .bouton-cpf3-mob {
-        background-color: rgb(9, 172, 0);
-        color: white;
+        background-color: #ffbd59;
+        color: #363636;
         text-decoration: none;
         padding: 10px 15px;
         font-size: 18px;
@@ -2299,9 +2297,11 @@ ul {
         white-space: nowrap;
         margin-bottom: 7%;
         border-radius: 15px;
+        border-color: black;
+        border-width: 1px;
+        border-style: dotted;
         font-family: Helvetica, sans-serif;
     }
-
 
     .rectangle_orange,
     .plan-tarif-container,
@@ -2312,7 +2312,10 @@ ul {
     .formu-tarif,
     .image-description a:hover,
     .plan-carteee-container,
-    .formu-contact, .bouton-cpf3, .bouton-cpf2, .bouton-cpf123 {
+    .formu-contact,
+    .bouton-cpf3,
+    .bouton-cpf2,
+    .bouton-cpf123 {
         display: none;
     }
 
