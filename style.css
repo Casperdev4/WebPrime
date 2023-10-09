@@ -1219,6 +1219,119 @@ ul {
     text-decoration: none;
 }
 
+.conteneur2 {
+    overflow: hidden;
+    max-width: 960px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    margin-bottom: 10%;
+}
+
+.d2 {
+    width: 3800px;
+    height: 130px;
+    background-color: #EDEDED;
+    background-image: url(imagecpf123.jpg);
+    background-size: contain;
+    animation: defilement1 60s linear infinite;
+}
+
+@keyframes defilement1 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-2880px, 0);
+    }
+}
+
+.d2:hover {
+    animation-play-state: paused;
+}
+
+.bouton_cpf {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-left: 80%;
+    border-radius: 30px;
+}
+
+.image_secuinfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.image_secuinfo img {
+    width: 520px;
+}
+
+.bouton-cpf123 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bouton-cpf {
+    background-color: rgb(226, 226, 226);
+    color: rgb(21, 111, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+    border-color: black;
+    border-width: 1px;
+    border-style: dotted;
+}
+
+.bouton-cpf2 {
+    background-color: rgb(21, 111, 255);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+.bouton-cpf3 {
+    background-color: rgb(9, 172, 0);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    border-radius: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+
 .plan-tarif-mobile1,
 #plan-tarif-mobile2,
 #plan-tarif-mobile3,
@@ -1244,7 +1357,7 @@ ul {
 .formu-contact-bleu-mobile,
 .formu-tarif-mobile,
 .plan-carteee-mobile,
-.formu-contact, .triple-image {
+.formu-contact, .triple-image, .bouton-cpf123-mob, .bouton-cpf2-mob, .bouton-cpf3-mob {
     display: none;
 }
 
@@ -1270,6 +1383,11 @@ ul {
         margin-left: 1%;
         margin-right: 1%;
         margin-bottom: 8%;
+    }
+
+    .h2-formation {
+        font-size: 19px;
+        margin-top: 15%;
     }
 
     p {
@@ -1404,7 +1522,7 @@ ul {
     }
 
     .show-nav .fifth {
-        transition: all 1.4s ease-out;
+        transition: all 2.3s ease-out;
     }
 
     .formu-contact-bleu-mobile {
@@ -2099,6 +2217,92 @@ ul {
         margin-top: 10%;
     }
 
+    .bouton_cpf {
+        background-color: black;
+        color: white;
+        width: fit-content;
+        padding: 5px 6px;
+        font-size: 13px;
+        margin-left: 75%;
+        margin-bottom: 7%;
+        border-radius: 20px;
+    }
+
+   .image_secuinfo {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .image_secuinfo img {
+        width: 80%;
+    }
+
+    .bouton-cpf123-mob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bouton-cpf-mob {
+        background-color: rgb(226, 226, 226);
+        color: rgb(21, 111, 255);
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+        border-color: black;
+        border-width: 1px;
+        border-style: dotted;
+    }
+
+    .bouton-cpf2-mob {
+        background-color: rgb(21, 111, 255);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .bouton-cpf3-mob {
+        background-color: rgb(9, 172, 0);
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        font-family: Helvetica, sans-serif;
+    }
+
+
     .rectangle_orange,
     .plan-tarif-container,
     .plan-avantage-container,
@@ -2108,7 +2312,7 @@ ul {
     .formu-tarif,
     .image-description a:hover,
     .plan-carteee-container,
-    .formu-contact {
+    .formu-contact, .bouton-cpf3, .bouton-cpf2, .bouton-cpf123 {
         display: none;
     }
 
