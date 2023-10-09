@@ -2284,8 +2284,8 @@ ul {
     }
 
     .bouton-cpf3-mob {
-        background-color: #ffbd59;
-        color: #363636;
+        background-color: rgb(9, 172, 0);
+        color: #ffff;
         text-decoration: none;
         padding: 10px 15px;
         font-size: 18px;
@@ -2298,9 +2298,6 @@ ul {
         white-space: nowrap;
         margin-bottom: 7%;
         border-radius: 15px;
-        border-color: black;
-        border-width: 1px;
-        border-style: dotted;
         font-family: Helvetica, sans-serif;
     }
 
