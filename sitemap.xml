@@ -77,7 +77,32 @@
 </url>
 
 <url>
-<loc>https://webprime.fr/tel:0767930456</loc>
+<loc>https://webprime.fr/design.html</loc>
+            <image:image>
+        <image:loc>https://www.webprime.fr/concepteurdesigner1.webp</image:loc>
+        <image:caption>formation-concepteur-designer</image:caption>
+        <image:title>concepteur-designer</image:title>
+    </image:image>
+                <image:image>
+        <image:loc>https://www.webprime.fr/concepteurdesigner2.webp</image:loc>
+        <image:caption>formation-concepteur-designer</image:caption>
+        <image:title>concepteur-designer</image:title>
+    </image:image>
+                <image:image>
+        <image:loc>https://www.webprime.fr/infographiste1.webp</image:loc>
+        <image:caption>formation-infographiste-metteur-en-page</image:caption>
+        <image:title>infographiste-metteur-en-page</image:title>
+    </image:image>
+                <image:image>
+        <image:loc>https://www.webprime.fr/formationdesign.webp</image:loc>
+        <image:caption>formation-infographiste-metteur-en-page</image:caption>
+        <image:title>infographiste-metteur-en-page</image:title>
+    </image:image>
+                <image:image>
+        <image:loc>https://www.webprime.fr/infographiste3.webp</image:loc>
+        <image:caption>formation-infographiste-metteur-en-page</image:caption>
+        <image:title>infographiste-metteur-en-page</image:title>
+    </image:image>
 </url>
 
 <url>
