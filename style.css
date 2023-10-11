@@ -1331,7 +1331,6 @@ ul {
     font-family: Helvetica, sans-serif;
 }
 
-
 .plan-tarif-mobile1,
 #plan-tarif-mobile2,
 #plan-tarif-mobile3,
@@ -1368,6 +1367,7 @@ ul {
 
 /*  Small device */
 @media screen and (max-width:767.98px) {
+
     p,
     h1,
     h2 {
