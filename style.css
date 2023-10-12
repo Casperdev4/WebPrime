@@ -2026,8 +2026,8 @@ ul {
         margin-right: auto;
         box-shadow: 2px 3px 0px 2px #d0d0d0;
         opacity: 0;
-        transform: translateX(-20px); /* Décalage initial pour éviter la disparition */
-        transition: opacity 1s, transform 1.5s;
+        transform: translateX(-50%);
+        transition: opacity 0.5s, transform 1s;
     }
 
     .etape-mobile.slide-in-done {
