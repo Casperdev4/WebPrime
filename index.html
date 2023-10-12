@@ -170,28 +170,28 @@
         </form>
     </div>
     <h5>Démarche Rapide (Recommandé)</h5>
-    <div class="etape-mobile">
+    <div class="etape-mobile" id="etape1">
         <h4>Étape 1</h4>
         <h6>Achat en ligne, une fois le paiement effectué, contactez-nous sur WhatsApp.</h6>
     </div>
-    <div class="etape-mobile">
+    <div class="etape-mobile" id="etape2">
         <h4>Étape 2</h4>
         <h6>Recueil de vos informations de contact et de toutes les données nécessaires à la réalisation du projet.</h6>
     </div>
-    <div class="etape-mobile">
+    <div class="etape-mobile" id="etape3">
         <h4>Étape 3</h4>
         <h6>Création du site web, design, programmation des fonctionnalités, création du contenu, mise en page,
             sécurité, etc...</h6>
     </div>
-    <div class="etape-mobile">
+    <div class="etape-mobile" id="etape4">
         <h4>Étape 4</h4>
         <h6>Validation du projet par le client.</h6>
     </div>
-    <div class="etape-mobile">
+    <div class="etape-mobile" id="etape5">
         <h4>Étape 5</h4>
         <h6>Hébergement du site, nom de domaine, e-mail professionnel et certificat SSL.</h6>
     </div>
-    <div class="etape-mobile">
+    <div class="etape-mobile" id="etape6">
         <h4>Étape 6</h4>
         <h6>Livraison du projet. Assistance 24/24, modifications et ajouts en illimité avec le pack complet.</h6>
     </div>
@@ -279,6 +279,40 @@
         }
         toggleMenu();
     </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5
+        };
+
+        function observeStep(entry, observer) {
+            entry.target.classList.add('slide-in-done');
+            observer.unobserve(entry.target);
+        }
+
+        function createObserver(id) {
+            var etape = document.querySelector('#' + id);
+
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        observeStep(entry, observer);
+                    }
+                });
+            }, observerOptions);
+
+            observer.observe(etape);
+        }
+
+        // Observer chaque étape séparément
+        for (var i = 1; i <= 6; i++) {
+            createObserver('etape' + i);
+        }
+    });
+</script>
+
 </body>
 
 </html>
