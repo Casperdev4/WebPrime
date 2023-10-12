@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords"
         content="développeur web, conception de sites web, développement d'applications, sites vitrine, sites e-commerce, sites catalogue, référencement">
     <meta name="robots" content="index, follow">
@@ -20,12 +20,18 @@
     <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="https://webprime.fr/logo/apple-icon-72x72.png">
     <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="https://webprime.fr/logo/apple-icon-76x76.png">
     <link rel="apple-touch-icon" type="image/png" sizes="96x96" href="https://webprime.fr/logo/apple-icon-96x96.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="https://webprime.fr/logo/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="https://webprime.fr/logo/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="https://webprime.fr/logo/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="https://webprime.fr/logo/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://webprime.fr/logo/apple-icon-180x180.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="256x256" href="https://webprime.fr/logo/apple-icon-256x256.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="114x114"
+        href="https://webprime.fr/logo/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="120x120"
+        href="https://webprime.fr/logo/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="144x144"
+        href="https://webprime.fr/logo/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="152x152"
+        href="https://webprime.fr/logo/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180"
+        href="https://webprime.fr/logo/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="256x256"
+        href="https://webprime.fr/logo/apple-icon-256x256.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://webprime.fr/logo/android-icon-32x32.png">
     <link rel="icon" type="image/png" sizes="57x57" href="https://webprime.fr/logo/android-icon-57x57.png">
     <link rel="icon" type="image/png" sizes="72x72" href="https://webprime.fr/logo/android-icon-72x72.png">
@@ -138,7 +144,7 @@
                         et à maintenir par rapport aux sites web plus complexes. Ils ne requièrent pas de bases de
                         données dynamiques ni de fonctionnalités avancées, ce qui réduit les coûts de développement
                         initial ainsi que les frais de maintenance à long terme.</i>
-                    </li><br>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -690,6 +696,30 @@
 
         }
         toggleMenu();
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.8
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-up');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+            const elements = document.querySelectorAll('.plan-avantage-mobile1, .plan-avantage-mobile2, .plan-avantage-mobile3, .plan-avantage-mobile4, .plan-avantage-mobile5, .plan-avantage-mobile6, .plan-avantage-mobile7, .plan-avantage-mobile8, .plan-avantage-mobile9, .plan-web-mobile1, .plan-web-mobile2, .plan-web-mobile3');
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
     </script>
 </body>
 
