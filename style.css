@@ -1756,13 +1756,13 @@ ul {
     .plan-avantage-mobile4 .plan-avantage,
     .plan-avantage-mobile5 .plan-avantage,
     .plan-avantage-mobile6 .plan-avantage {
-        height: 565px;
+        height: 530px;
     }
 
     .plan-avantage-mobile7 .plan-avantage,
     .plan-avantage-mobile8 .plan-avantage,
     .plan-avantage-mobile9 .plan-avantage {
-        height: 577px;
+        height: 530px;
     }
 
     .plan-avantage-mobile1,
@@ -1773,7 +1773,10 @@ ul {
     .plan-avantage-mobile6,
     .plan-avantage-mobile7,
     .plan-avantage-mobile8,
-    .plan-avantage-mobile9, .plan-web-mobile1, .plan-web-mobile2, .plan-web-mobile3 {
+    .plan-avantage-mobile9,
+    .plan-web-mobile1,
+    .plan-web-mobile2,
+    .plan-web-mobile3 {
         opacity: 0;
         transform: translateY(20%);
     }
@@ -1795,6 +1798,12 @@ ul {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .plan-web-mobile1 .plan-web,
+    .plan-web-mobile2 .plan-web,
+    .plan-web-mobile3 .plan-web {
+        height: 480px;
     }
 
     .plan-web__description {
