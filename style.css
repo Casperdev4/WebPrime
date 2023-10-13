@@ -2231,17 +2231,14 @@ ul {
     }
 
     .contact-icon-whatsapp {
-        display: block;
-        position: sticky;
-        float: right;
+        position: fixed;
+        right: 1%;
         bottom: 4%;
-        margin-right: 5%;
-        font-size: 45px;
     }
 
-    .contact-icon-whatsapp a {
-        color: #007c64;
-        text-decoration: none;
+    .contact-icon-whatsapp img {
+        display: block;
+        width: 45px;
     }
 
     .paypal-prelevement-texte h5 {
