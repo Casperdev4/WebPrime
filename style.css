@@ -1797,20 +1797,6 @@ ul {
         justify-content: center;
     }
 
-    .plan-web {
-        height: 580px;
-        width: 230px;
-        border-radius: 25px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        font-family: sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #555555;
-        margin: 15px;
-        margin-top: 5%;
-    }
-
     .plan-web__description {
         padding: 10px;
     }
