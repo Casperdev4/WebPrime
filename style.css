@@ -1775,7 +1775,7 @@ ul {
     .plan-avantage-mobile8,
     .plan-avantage-mobile9, .plan-web-mobile1, .plan-web-mobile2, .plan-web-mobile3 {
         opacity: 0;
-        transform: translateY(10%);
+        transform: translateY(40%);
     }
 
     .slide-up {
