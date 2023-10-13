@@ -2226,8 +2226,9 @@ ul {
     }
 
     .contact-icon-whatsapp {
+        display: flex;
         position: fixed;
-        right: 1%;
+        right: 3%;
         bottom: 4%;
     }
 
