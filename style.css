@@ -1173,7 +1173,7 @@ ul {
 }
 
 .etape-mobile {
-    width: 85%;
+    width: 65%;
     background-color: #e0e0e059;
     padding-left: 3%;
     padding-right: 3%;
@@ -1184,6 +1184,14 @@ ul {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 3px 0px 2px #d0d0d0;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.5s, transform 1s;
+}
+
+.etape-mobile.slide-in-done {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .etape-mobile h4 {
@@ -1203,20 +1211,6 @@ ul {
     font-weight: 100;
     margin-left: 2%;
     margin-right: 2%;
-}
-
-.contact-icon-whatsapp {
-    display: block;
-    position: sticky;
-    float: right;
-    bottom: 4%;
-    margin-right: 5%;
-    font-size: 45px;
-}
-
-.contact-icon-whatsapp a {
-    color: #007c64;
-    text-decoration: none;
 }
 
 .conteneur2 {
@@ -1373,7 +1367,8 @@ ul {
 .triple-image,
 .bouton-cpf-mob,
 .bouton-cpf2-mob,
-.bouton-cpf3-mob {
+.bouton-cpf3-mob,
+.contact-icon-whatsapp {
     display: none;
 }
 
