@@ -1410,6 +1410,23 @@ ul {
         margin-bottom: 11%;
     }
 
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.4rem;
+        background: var(--navbar-bg-color);
+        color: var(--navbar-color);
+        background-color: #ffbd59;
+        max-height: 15em; /* Ajoutez une valeur appropriée pour la hauteur minimale */
+    }
+
+    .navbar__logo img {
+        max-height: 150px; /* ajustez selon vos besoins */
+        min-height: 150px; /* ajustez selon vos besoins */
+    }
+    
+
     .navbar__links {
         overflow: hidden;
         display: flex;
@@ -1475,7 +1492,7 @@ ul {
     .bar {
         display: block;
         position: fixed;
-        width: 40px;
+        width: 35px;
         height: 4px;
         border-radius: 3px;
         background: var(--navbar-color);
@@ -1486,7 +1503,7 @@ ul {
     .bar::before,
     .bar::after {
         content: "";
-        width: 40px;
+        width: 35px;
         height: 4px;
         position: absolute;
         left: 0;
