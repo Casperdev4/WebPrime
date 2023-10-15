@@ -1418,7 +1418,7 @@ ul {
         background: var(--navbar-bg-color);
         color: var(--navbar-color);
         background-color: #ffbd59;
-        max-height: 15em; /* Ajoutez une valeur appropriée pour la hauteur minimale */
+        max-height: 15em;
     }
 
     .navbar__logo img {
@@ -1426,7 +1426,6 @@ ul {
         min-height: 150px; /* ajustez selon vos besoins */
     }
     
-
     .navbar__links {
         overflow: hidden;
         display: flex;
