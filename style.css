@@ -1419,6 +1419,7 @@ ul {
         color: var(--navbar-color);
         background-color: #ffbd59;
         max-height: 15em;
+        min-height: 15em;
     }
 
     .navbar__logo img {
