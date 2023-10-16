@@ -1410,6 +1410,10 @@ ul {
         margin-bottom: 11%;
     }
 
+    body {
+        margin-top: 26%;
+    }
+
     .navbar {
         display: flex;
         align-items: center;
@@ -1420,13 +1424,20 @@ ul {
         background-color: #ffbd59;
         max-height: 15em;
         min-height: 15em;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
     }
 
     .navbar__logo img {
-        max-height: 150px; /* ajustez selon vos besoins */
-        min-height: 150px; /* ajustez selon vos besoins */
+        max-height: 150px;
+        /* ajustez selon vos besoins */
+        min-height: 150px;
+        /* ajustez selon vos besoins */
     }
-    
+
     .navbar__links {
         overflow: hidden;
         display: flex;
