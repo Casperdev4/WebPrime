@@ -1457,9 +1457,9 @@ ul {
     }
 
     .show-nav .navbar__links {
-
         width: 100vw;
         transform: translateX(0);
+        text-align: center;
     }
 
     .navbar__link {
