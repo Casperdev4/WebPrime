@@ -2,7 +2,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
-<loc>https://webprime.fr/index.html</loc>
+<loc>https://webprime.fr</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/siteweb.jpg</image:loc>
         <image:caption>image-creation-sites-web</image:caption>
