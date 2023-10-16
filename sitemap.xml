@@ -5,28 +5,28 @@
 <loc>https://webprime.fr</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/siteweb.jpg</image:loc>
-        <image:caption>image-creation-sites-web</image:caption>
-        <image:title>creation-sites-web</image:title>
+        <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
+        <image:title>Création de Sites Web</image:title>
     </image:image>
-        <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/referencement-seo.jpg</image:loc>
-        <image:caption>image-referencement-seo</image:caption>
-        <image:title>referencement-seo</image:title>
+        <image:caption>Améliorez la visibilité de votre site sur les moteurs de recherche avec nos services de référencement naturel.</image:caption>
+        <image:title>Référencement</image:title>
     </image:image>
-        <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/google-page-speed-insights.png</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
-        <image:title>google-page-speed-insights</image:title>
+        <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
+        <image:title>Google Page Speed Insights</image:title>
     </image:image>
-        <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/page-speed-insights.png</image:loc>
-        <image:caption>image-google-page-speed-insights</image:caption>
-        <image:title>google-page-speed-insights</image:title>
+        <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
+        <image:title>Google Page Speed Insights</image:title>
     </image:image>
-            <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/17.png</image:loc>
-        <image:caption>image-paypal</image:caption>
-        <image:title>paypal</image:title>
+        <image:caption>Payez en ligne de manière sécurisée avec PayPal, une plateforme de paiement électronique.</image:caption>
+        <image:title>PayPal</image:title>
     </image:image>
 </url>
 
@@ -34,18 +34,18 @@
 <loc>https://webprime.fr/sites-web.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/site-vitrine.png</image:loc>
-        <image:caption>image-site-vitrine</image:caption>
-        <image:title>site-vitrine</image:title>
+        <image:caption>Découvrez nos services de création de sites vitrines attractifs et performants.</image:caption>
+        <image:title>Site Vitrine</image:title>
     </image:image>
-        <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/site-catalogue.png</image:loc>
-        <image:caption>image-site-catalogue</image:caption>
-        <image:title>site-catalogue</image:title>
+        <image:caption>Découvrez nos services de création de sites catalogues attractifs et performants.</image:caption>
+        <image:title>Site Catalogue</image:title>
     </image:image>
-        <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/site-e-commerce.png</image:loc>
-        <image:caption>image-site-e-commerce</image:caption>
-        <image:title>site-e-commerce</image:title>
+        <image:caption>Découvrez nos services de création de sites e-commerce attractifs et performants.</image:caption>
+        <image:title>Site E-commerce</image:title>
     </image:image>
 </url>
 
@@ -53,22 +53,22 @@
 <loc>https://webprime.fr/referencement.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/seo.png</image:loc>
-        <image:caption>image-referencement-naturel</image:caption>
-        <image:title>referencement-naturel</image:title>
+        <image:caption>Découvrez nos services de référencement naturel pour améliorer la visibilité de votre site.</image:caption>
+        <image:title>Référencement Naturel</image:title>
     </image:image>
     <image:image>
         <image:loc>https://www.webprime.fr/ads.webp</image:loc>
-        <image:caption>image-google-ads</image:caption>
-        <image:title>google-ads</image:title>
+        <image:caption>Explorez nos services de gestion de campagnes Google Ads pour booster votre visibilité en ligne.</image:caption>
+        <image:title>Google Ads</image:title>
     </image:image>
 </url>
 
 <url>
 <loc>https://webprime.fr/tarifs.html</loc>
-            <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/17.png</image:loc>
-        <image:caption>image-paypal</image:caption>
-        <image:title>paypal</image:title>
+        <image:caption>Découvrez nos options de paiement sécurisé avec PayPal.</image:caption>
+        <image:title>PayPal</image:title>
     </image:image>
 </url>
 
@@ -77,31 +77,46 @@
 </url>
 
 <url>
-<loc>https://webprime.fr/design.html</loc>
-            <image:image>
+<loc>https://webprime.fr/formations.html</loc>
+     <image:image>
         <image:loc>https://www.webprime.fr/concepteurdesigner1.webp</image:loc>
-        <image:caption>formation-concepteur-designer</image:caption>
-        <image:title>concepteur-designer</image:title>
+        <image:caption>Formation Concepteur Designer - Développez vos compétences en conception et design pour créer des solutions innovantes.</image:caption>
+        <image:title>Concepteur Designer</image:title>
     </image:image>
-                <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/concepteurdesigner2.webp</image:loc>
-        <image:caption>formation-concepteur-designer</image:caption>
-        <image:title>concepteur-designer</image:title>
+        <image:caption>Formation Concepteur Designer - Développez vos compétences en conception et design pour créer des solutions innovantes.</image:caption>
+        <image:title>Concepteur Designer</image:title>
     </image:image>
-                <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/infographiste1.webp</image:loc>
-        <image:caption>formation-infographiste-metteur-en-page</image:caption>
-        <image:title>infographiste-metteur-en-page</image:title>
+        <image:caption>Formation Infographiste Metteur-en-page - Acquérez les compétences nécessaires pour exceller dans la création graphique et la mise en page.</image:caption>
+        <image:title>Formation Infographiste Metteur-en-page</image:title>
     </image:image>
-                <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/formationdesign.webp</image:loc>
-        <image:caption>formation-infographiste-metteur-en-page</image:caption>
-        <image:title>infographiste-metteur-en-page</image:title>
+        <image:caption>Formation Infographiste Metteur-en-page - Acquérez les compétences nécessaires pour exceller dans la création graphique et la mise en page.</image:caption>
+        <image:title>Formation Infographiste Metteur-en-page</image:title>
     </image:image>
-                <image:image>
+    <image:image>
         <image:loc>https://www.webprime.fr/infographiste3.webp</image:loc>
-        <image:caption>formation-infographiste-metteur-en-page</image:caption>
-        <image:title>infographiste-metteur-en-page</image:title>
+        <image:caption>Formation Infographiste Metteur-en-page - Acquérez les compétences nécessaires pour exceller dans la création graphique et la mise en page.</image:caption>
+        <image:title>Formation Infographiste Metteur-en-page</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/c++.webp</image:loc>
+        <image:caption>Formation C++ - Programmation en C++.</image:caption>
+        <image:title>Formation C++</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/python.webp</image:loc>
+        <image:caption>Formation Python - Découvrez les concepts fondamentaux de la programmation Python.</image:caption>
+        <image:title>Formation Python</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/javascript.webp</image:loc>
+        <image:caption>Formation JavaScript - Explorez le langage de programmation JavaScript pour développer des sites web interactifs et dynamiques.</image:caption>
+        <image:title>Formation JavaScript</image:title>
     </image:image>
 </url>
 
