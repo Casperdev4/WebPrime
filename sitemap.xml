@@ -2,7 +2,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
-<loc>https://webprime.fr</loc>
+<loc>https://www.webprime.fr</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/siteweb.jpg</image:loc>
         <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
@@ -28,10 +28,40 @@
         <image:caption>Payez en ligne de manière sécurisée avec PayPal, une plateforme de paiement électronique.</image:caption>
         <image:title>PayPal</image:title>
     </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/bouclier.gif</image:loc>
+        <image:caption>Sécurité de navigation : Explorez nos sites sécurisés pour des expériences en ligne fiables.</image:caption>
+        <image:title>Sécurité de Navigation</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/fusee.gif</image:loc>
+        <image:caption>Optimisez votre référencement naturel avec nos stratégie SEO</image:caption>
+        <image:title>Référencement Naturel</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/fusee.gif</image:loc>
+        <image:caption>Boostez votre visibilité en ligne et attirez une nouvelle clientèle avec notre approche dynamique.</image:caption>
+        <image:title>Nouvelle Clientèle</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/etiquette-de-prix.gif</image:loc>
+        <image:caption>Profitez de nos tarifs compétitifs pour booster votre visibilité en ligne et attirer une nouvelle clientèle.</image:caption>
+        <image:title>Tarifs Abordables</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/horloge.gif</image:loc>
+        <image:caption>Optimisez votre visibilité en ligne 24/7 avec nos tarifs compétitifs, attirez une nouvelle clientèle à tout moment.</image:caption>
+        <image:title>Visibilité 24/7</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/prix.gif</image:loc>
+        <image:caption>Consolidez votre réputation en ligne</image:caption>
+        <image:title>Réputation en Ligne</image:title>
+    </image:image>
 </url>
 
 <url>
-<loc>https://webprime.fr/sites-web.html</loc>
+<loc>https://www.webprime.fr/sites-web.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/site-vitrine.png</image:loc>
         <image:caption>Découvrez nos services de création de sites vitrines attractifs et performants.</image:caption>
@@ -50,11 +80,16 @@
 </url>
 
 <url>
-<loc>https://webprime.fr/referencement.html</loc>
+<loc>https://www.webprime.fr/referencement.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/seo.png</image:loc>
         <image:caption>Découvrez nos services de référencement naturel pour améliorer la visibilité de votre site.</image:caption>
         <image:title>Référencement Naturel</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://www.webprime.fr/sablier.gif</image:loc>
+        <image:caption>La durée d'un bon référencement s'étend sur plusieurs années.</image:caption>
+        <image:title>Durée du Référencement Naturel</image:title>
     </image:image>
     <image:image>
         <image:loc>https://www.webprime.fr/ads.webp</image:loc>
@@ -64,7 +99,7 @@
 </url>
 
 <url>
-<loc>https://webprime.fr/tarifs.html</loc>
+<loc>https://www.webprime.fr/tarifs.html</loc>
     <image:image>
         <image:loc>https://www.webprime.fr/17.png</image:loc>
         <image:caption>Découvrez nos options de paiement sécurisé avec PayPal.</image:caption>
@@ -73,11 +108,11 @@
 </url>
 
 <url>
-<loc>https://webprime.fr/pdc.html</loc>
+<loc>https://www.webprime.fr/pdc.html</loc>
 </url>
 
 <url>
-<loc>https://webprime.fr/formations.html</loc>
+<loc>https://www.webprime.fr/formations.html</loc>
      <image:image>
         <image:loc>https://www.webprime.fr/concepteurdesigner1.webp</image:loc>
         <image:caption>Formation Concepteur Designer - Développez vos compétences en conception et design pour créer des solutions innovantes.</image:caption>
@@ -121,10 +156,10 @@
 </url>
 
 <url>
-<loc>https://webprime.fr/mentionslegales.html</loc>
+<loc>https://www.webprime.fr/mentionslegales.html</loc>
 </url>
 
 <url>
-<loc>https://webprime.fr/CGV.html</loc>
+<loc>https://www.webprime.fr/CGV.html</loc>
 </url>
 </urlset>
