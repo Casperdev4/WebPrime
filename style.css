@@ -1128,6 +1128,10 @@ ul {
     width: 50%;
 }
 
+.icon-nav {
+    width: 40px;
+}
+
 .liens-utile2-container {
     background-color: #8ae7d7;
     padding: 1%;
@@ -2368,6 +2372,10 @@ ul {
     .icon-anime img {
         width: 40%;
         height: 40%;
+    }
+
+    .icon-nav {
+        width: 40px;
     }
 
     .rectangle_orange,
