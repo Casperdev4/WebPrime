@@ -1015,6 +1015,7 @@ ul {
 .show-nav .navbar__links {
     width: 100vw;
     transform: translateX(0);
+    text-align: center;
 }
 
 .navbar__link {
@@ -1095,26 +1096,6 @@ ul {
     transform: rotate(-45deg);
 }
 
-.show-nav .first {
-    transition: all 1.1s ease-out;
-}
-
-.show-nav .second {
-    transition: all 1.4s ease-out;
-}
-
-.show-nav .third {
-    transition: all 1.7s ease-out;
-}
-
-.show-nav .four {
-    transition: all 2s ease-out;
-}
-
-.show-nav .fifth {
-    transition: all 2.3s ease-out;
-}
-
 .navbar__link>a::after {
     display: block;
     content: "";
@@ -1122,10 +1103,11 @@ ul {
     height: 3px;
     background-color: #ffbd59;
     transition: width .4s;
+    margin: 0 auto;
 }
 
 .navbar__link:hover>a::after {
-    width: 50%;
+    width: 40%;
 }
 
 .icon-nav {
@@ -1490,10 +1472,6 @@ ul {
         letter-spacing: 5px;
     }
 
-    .navbar__logo img {
-        height: 12em;
-    }
-
     .burger {
         display: block;
         position: relative;
@@ -1548,26 +1526,6 @@ ul {
 
     .show-nav .bar::after {
         transform: rotate(-45deg);
-    }
-
-    .show-nav .first {
-        transition: all 1.1s ease-out;
-    }
-
-    .show-nav .second {
-        transition: all 1.4s ease-out;
-    }
-
-    .show-nav .third {
-        transition: all 1.7s ease-out;
-    }
-
-    .show-nav .four {
-        transition: all 2s ease-out;
-    }
-
-    .show-nav .fifth {
-        transition: all 2.3s ease-out;
     }
 
     .formu-contact-bleu-mobile {
