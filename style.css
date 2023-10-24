@@ -2366,6 +2366,10 @@ ul {
         width: 40px;
     }
 
+    .video-index {
+        margin-bottom: 10%;
+    }
+
     .rectangle_orange,
     .plan-tarif-container,
     .plan-avantage-container,
