@@ -308,7 +308,7 @@ h5 {
     width: 100%;
     margin: 0 auto;
     padding: 100px 20px 0;
-    margin: 0 auto;
+    margin-bottom: 7%;
 }
 
 .titre-mouvent p {
@@ -1324,6 +1324,34 @@ ul {
     width: 30%;
     height: 30%;
 }
+
+.video-index {
+    position: relative;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-content {
+    position: relative;
+    z-index: 1;
+    color: #fff; 
+}
+
+.video-content h1 {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
 
 .plan-tarif-mobile1,
 #plan-tarif-mobile2,
