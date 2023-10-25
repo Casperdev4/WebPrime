@@ -1405,6 +1405,14 @@ ul {
         margin-bottom: 10%;
     }
 
+    .video-content h1 {
+        text-align: center;
+        padding: 20px;
+        color: #ffffff;
+        margin-bottom: 0;
+        margin-top: 3%;
+    }
+
     h2 {
         margin-left: 1%;
         margin-right: 1%;
@@ -1419,6 +1427,12 @@ ul {
 
     p {
         font-size: 17px;
+    }
+
+    .p-index-video {
+        color: #ffffff;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
 
     .p-prelevement {
