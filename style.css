@@ -507,6 +507,16 @@ p:nth-child(2) span::after {
     color: #000000;
 }
 
+.icon-paypal {
+    color: #013bc2;
+    font-size: 18px;
+}
+
+.icon-cb {
+    color: #000000;
+    font-size: 20px;
+}
+
 .plan-web {
     height: 540px;
     width: 230px;
