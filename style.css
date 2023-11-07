@@ -1505,7 +1505,7 @@ ul {
         right: 0;
         background: var(--navbar-bg-color);
         transform: translateX(110%);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
         z-index: 999;
     }
 
@@ -1517,7 +1517,7 @@ ul {
 
     .navbar__link {
         transform: translateX(101%);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .show-nav .navbar__link {
@@ -1527,9 +1527,9 @@ ul {
     .navbar__link>a {
         display: block;
         padding: 1rem;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         color: var(--navbar-color);
-        transition: all .4s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .navbar__link>a:hover {
@@ -1556,7 +1556,7 @@ ul {
         height: 4px;
         border-radius: 3px;
         background: var(--navbar-color);
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
         z-index: 999;
     }
 
@@ -1569,7 +1569,7 @@ ul {
         left: 0;
         background: var(--navbar-color);
         border-radius: 3px;
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .bar::before {
