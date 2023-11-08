@@ -1486,9 +1486,7 @@ ul {
 
     .navbar__logo img {
         max-height: 150px;
-        /* ajustez selon vos besoins */
         min-height: 150px;
-        /* ajustez selon vos besoins */
     }
 
     .navbar__links {
