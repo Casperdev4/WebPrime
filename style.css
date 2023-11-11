@@ -1403,7 +1403,6 @@ ul {
 .formu-tarif-mobile,
 .plan-carteee-mobile,
 .formu-contact,
-.triple-image,
 .bouton-cpf-mob,
 .bouton-cpf2-mob,
 .bouton-cpf3-mob,
@@ -2405,6 +2404,23 @@ ul {
 
     .video-index {
         margin-bottom: 10%;
+    }
+
+    .triple-image {
+        overflow: hidden;
+        max-width: 960px;
+        margin: 50px auto;
+        box-shadow: 0px 15px 10px -5px #777;
+        margin-bottom: 10%;
+    }
+    
+    .triple-image-d1 {
+        width: 3900px;
+        height: 200px;
+        background-color: #EDEDED;
+        background-image: url(tripleimageindex.svg);
+        background-size: contain;
+        animation: defilement1 50s linear infinite;
     }
 
     .rectangle_orange,
