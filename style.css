@@ -151,10 +151,16 @@ h5 {
 .texte-seo-2 p {
     text-align: left;
     margin-top: -3%;
+    line-height: 1.7;
 }
 
 .strong-color {
     color: #f79400;
+    font-weight: 545;
+}
+
+.strong-color2 {
+    color: #222;
     font-weight: 545;
 }
 
