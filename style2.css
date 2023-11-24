@@ -2289,6 +2289,14 @@ textarea {
         margin: 2%;
     }
 
+    .robots {
+        display: block;
+        width: 90%;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
     .bouton-cpf-mob {
         background-color: rgb(226, 226, 226);
         color: rgb(21, 111, 255);
