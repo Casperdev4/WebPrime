@@ -1520,9 +1520,16 @@ textarea {
     }
 
     h1 {
+        font-size: 25px;
         margin-right: 4%;
         margin-left: 4%;
-        margin-top: 10%;
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-top: 15%;
         margin-bottom: 10%;
     }
 
