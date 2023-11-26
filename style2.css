@@ -489,13 +489,13 @@ p:nth-child(2) {
 }
 
 p:nth-child(1) span::after {
-    background: #afe7de;
+    background: #c3c3c3;
     animation: slide-in 0.75s ease-out forwards,
         slide-out 0.75s 1s ease-out forwards;
 }
 
 p:nth-child(2) span::after {
-    background: rgb(254, 218, 139);
+    background: #222;
     animation: slide-in 0.75s 0.3s ease-out forwards,
         slide-out 0.75s 1.3s ease-out forwards;
 }
@@ -1058,20 +1058,6 @@ textarea {
     color: #000000;
 }
 
-.etape-mobile {
-    width: 91%;
-    background-color: #e0e0e059;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 4%;
-    padding-bottom: 8%;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 2px 3px 0px 2px #d0d0d0;
-}
-
 .image_general-siteweb {
     display: flex;
     justify-content: center;
@@ -1092,7 +1078,7 @@ textarea {
 }
 
 .liens-utile2-container {
-    background-color: #8ae7d7;
+    background-color: #000000;
     padding: 1%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -1128,51 +1114,6 @@ textarea {
     text-align: center;
     margin-bottom: 4%;
 
-}
-
-.page-speed {
-    margin-top: 20%;
-}
-
-.etape-mobile {
-    width: 65%;
-    background-color: #e0e0e059;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 4%;
-    padding-bottom: 8%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 2px 3px 0px 2px #d0d0d0;
-    opacity: 0;
-    transform: translateX(-50%);
-    transition: opacity 0.5s, transform 1s;
-}
-
-.etape-mobile.slide-in-done {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.etape-mobile h4 {
-    color: #222;
-    text-align: left;
-    font-weight: 550;
-    font-size: 1.4em;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-left: 2%;
-}
-
-.etape-mobile h6 {
-    font-size: 18px;
-    color: #222;
-    text-align: left;
-    font-weight: 100;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 /*  image défilement formations */
