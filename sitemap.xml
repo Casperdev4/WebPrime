@@ -6,7 +6,7 @@
     <image:image>
         <image:loc>https://webprime.fr/siteweb.jpg</image:loc>
         <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
-        <image:title>Création de Sites Web</image:title>
+        <image:title>Création de Sites internet</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/referencement-seo.jpg</image:loc>
@@ -144,6 +144,14 @@
         <image:caption>Formation JavaScript - Explorez le langage de programmation JavaScript pour développer des sites web interactifs et dynamiques.</image:caption>
         <image:title>Formation JavaScript</image:title>
     </image:image>
+</url>
+
+<url>
+<loc>https://webprime.fr/trading-bot.html</loc>
+</url>
+
+<url>
+<loc>https://webprime.fr/nvx.html</loc>
 </url>
 
 <url>
