@@ -1511,7 +1511,8 @@ textarea {
 
     .p-prelevement {
         font-size: 16px;
-        margin-bottom: 11%;
+        margin-bottom: 15%;
+        margin-top: -5%;
     }
 
     body {
@@ -1864,7 +1865,7 @@ textarea {
     }
 
     .image_secuinfo img {
-        width: 80%;
+        width: 90%;
     }
 
     .video_trading {
