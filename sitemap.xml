@@ -103,51 +103,37 @@
 </url>
 
 <url>
-<loc>https://webprime.fr/formations.html</loc>
-     <image:image>
-        <image:loc>https://webprime.fr/concepteurdesigner1.webp</image:loc>
-        <image:caption>Formation Concepteur Designer - Développez vos compétences en conception et design pour créer des solutions innovantes.</image:caption>
-        <image:title>Concepteur Designer</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/concepteurdesigner2.webp</image:loc>
-        <image:caption>Formation Concepteur Designer - Développez vos compétences en conception et design pour créer des solutions innovantes.</image:caption>
-        <image:title>Concepteur Designer</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/infographiste1.webp</image:loc>
-        <image:caption>Formation Infographiste Metteur-en-page - Acquérez les compétences nécessaires pour exceller dans la création graphique et la mise en page.</image:caption>
-        <image:title>Formation Infographiste Metteur-en-page</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/formationdesign.webp</image:loc>
-        <image:caption>Formation Infographiste Metteur-en-page - Acquérez les compétences nécessaires pour exceller dans la création graphique et la mise en page.</image:caption>
-        <image:title>Formation Infographiste Metteur-en-page</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/infographiste3.webp</image:loc>
-        <image:caption>Formation Infographiste Metteur-en-page - Acquérez les compétences nécessaires pour exceller dans la création graphique et la mise en page.</image:caption>
-        <image:title>Formation Infographiste Metteur-en-page</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/c++.webp</image:loc>
-        <image:caption>Formation C++ - Programmation en C++.</image:caption>
-        <image:title>Formation C++</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/python.webp</image:loc>
-        <image:caption>Formation Python - Découvrez les concepts fondamentaux de la programmation Python.</image:caption>
-        <image:title>Formation Python</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/javascript.webp</image:loc>
-        <image:caption>Formation JavaScript - Explorez le langage de programmation JavaScript pour développer des sites web interactifs et dynamiques.</image:caption>
-        <image:title>Formation JavaScript</image:title>
-    </image:image>
-</url>
-
-<url>
 <loc>https://webprime.fr/trading-bot.html</loc>
+     <image:image>
+        <image:loc>https://webprime.fr/mesure.jpg</image:loc>
+        <image:caption>Création de robot de trading sur mesure - Développez une solution automatisée pour traiter sur les marchés financiers.</image:caption>
+        <image:title>Robot de Trading Sur Mesure</image:title>
+    </image:image>
+         <image:image>
+        <image:loc>https://webprime.fr/nvx.png</image:loc>
+        <image:caption>Robots de trading - Obtenez un outil performant pour améliorer et automatiser vos stratégies de trading.</image:caption>
+        <image:title>Robots de Trading</image:title>
+    </image:image>
+         <image:image>
+        <image:loc>https://webprime.fr/crochets.png</image:loc>
+        <image:caption>Robots de trading - Obtenez un outil performant pour améliorer et automatiser vos stratégies de trading.</image:caption>
+        <image:title>Robots de Trading</image:title>
+    </image:image>
+         <image:image>
+        <image:loc>https://webprime.fr/vwap.png</image:loc>
+        <image:caption>Robots de trading - Obtenez un outil performant pour améliorer et automatiser vos stratégies de trading.</image:caption>
+        <image:title>Robots de Trading</image:title>
+    </image:image>
+         <image:image>
+        <image:loc>https://webprime.fr/super.png</image:loc>
+        <image:caption>Robots de trading - Obtenez un outil performant pour améliorer et automatiser vos stratégies de trading.</image:caption>
+        <image:title>Robots de Trading</image:title>
+    </image:image>
+         <image:image>
+        <image:loc>https://webprime.fr/ib.png</image:loc>
+        <image:caption>Robots de trading - Obtenez un outil performant pour améliorer et automatiser vos stratégies de trading.</image:caption>
+        <image:title>Robots de Trading</image:title>
+    </image:image>
 </url>
 
 <url>
