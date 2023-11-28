@@ -232,6 +232,7 @@ p {
     margin-left: 5%;
     margin-right: 5%;
     line-height: 1.5;
+    word-spacing: 5px;
 }
 
 .p-img123 {
@@ -338,7 +339,7 @@ p {
 
 .strong-color2 {
     color: #222;
-    font-weight: 350;
+    font-weight: 550;
 }
 
 .site-catalogue p,
