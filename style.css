@@ -2437,6 +2437,18 @@ textarea {
         animation: defilement1 50s linear infinite;
     }
 
+    .stripe {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stripe h5 {
+        margin-top: 15%;
+
+    }
+
     .rectangle_orange,
     .plan-tarif-container,
     .plan-avantage-container,
