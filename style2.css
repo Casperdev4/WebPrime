@@ -1291,6 +1291,10 @@ textarea {
     transition: opacity 0.5s, transform 1s;
 }
 
+.robots p {
+    text-align: left;
+}
+
 
 .plan-tarif-mobile1,
 #plan-tarif-mobile2,
