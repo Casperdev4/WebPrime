@@ -1501,12 +1501,6 @@ textarea {
         margin-bottom: 7%;
     }
 
-    .caracteristiques h5 {
-        text-align: left;
-        font-size: 14px;
-        margin: 3%;
-    }
-
     .video-content h1 {
         text-align: center;
         padding: 20px;
@@ -1520,12 +1514,6 @@ textarea {
         line-height: 1.4;
     }
 
-    .p-index-video {
-        color: #ffffff;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-
     .p-prelevement {
         font-size: 16px;
         margin-bottom: 15%;
@@ -1534,73 +1522,6 @@ textarea {
 
     body {
         margin-top: 26%;
-    }
-
-    .formu-contact-bleu-mobile {
-        width: 90%;
-        height: 52vh;
-        background-color: #8ae7d7;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        margin-top: 7%;
-        margin-bottom: 7%;
-    }
-
-    .formu-contact {
-        width: 90%;
-        height: 52vh;
-        background-color: #ffbd59;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        margin-top: 7%;
-        margin-bottom: 7%;
-        background-image: url(img-formu.png);
-    }
-
-    .formu {
-        width: 90%;
-        height: 95%;
-    }
-
-    .formu h2 {
-        font-size: 1.5em;
-    }
-
-    .formu input,
-    textarea {
-        border: 0;
-        margin: 3% 0;
-        padding-left: 5%;
-        outline: none;
-        background: #f5f5f5;
-        font-size: 25px;
-        border-radius: 10px;
-    }
-
-    .formu ::placeholder {
-        font-size: 70%;
-
-    }
-
-    .formu button {
-        padding: 15px;
-        background: #0cbcf2;
-        color: #EDEDED;
-        font-size: 18px;
-        border: 0;
-        outline: none;
-        cursor: pointer;
-        width: 150px;
-        margin-bottom: 3%;
-        border-radius: 30px;
     }
 
     .image-description {
@@ -1669,26 +1590,6 @@ textarea {
 
     .icon-tel {
         font-size: 20px;
-    }
-
-    .p-img123 {
-        margin-top: 0;
-        margin-left: auto;
-        margin-right: auto;
-        width: 95%;
-        padding: 2%;
-    }
-
-    .image-description {
-        margin-top: 15px;
-        background-color: #8ae7d7;
-        padding: 3%;
-        text-align: center;
-        font-size: 21px;
-        border-radius: 35px;
-        width: 55%;
-        text-decoration: none;
-        color: #000000;
     }
 
     .titre-mouvent *,
@@ -1781,35 +1682,6 @@ textarea {
         font-family: 'Poppins', sans-serif;
     }
 
-    .image-description a:hover {
-        color: #ffbd59;
-        background-color: #457cfe;
-        border-radius: 15px;
-    }
-
-    .image_general {
-        display: flex;
-        justify-content: center;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-
-    .image_general img {
-        width: 90%;
-        border-radius: 50px;
-    }
-
-    .image_general-siteweb {
-        display: flex;
-        justify-content: center;
-        margin-top: -7%;
-        margin-bottom: -6%;
-    }
-
-    .image_general-siteweb img {
-        width: 90%;
-    }
-
     .contact-icon-whatsapp {
         display: flex;
         position: fixed;
@@ -1822,17 +1694,6 @@ textarea {
         width: 45px;
     }
 
-    .bouton_cpf {
-        background-color: black;
-        color: white;
-        width: fit-content;
-        padding: 5px 6px;
-        font-size: 13px;
-        margin-left: 75%;
-        margin-bottom: 7%;
-        border-radius: 20px;
-    }
-
     .image_secuinfo {
         display: flex;
         justify-content: center;
@@ -1842,13 +1703,6 @@ textarea {
 
     .image_secuinfo img {
         width: 90%;
-    }
-
-    .video_trading {
-        display: flex;
-        justify-content: center;
-        margin-top: 5%;
-        margin-bottom: 5%;
     }
 
     .robots {
@@ -1870,81 +1724,6 @@ textarea {
         margin-right: auto;
     }
 
-    .bouton-cpf-mob {
-        background-color: rgb(226, 226, 226);
-        color: rgb(21, 111, 255);
-        text-decoration: none;
-        padding: 10px 15px;
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        white-space: nowrap;
-        margin-top: 9%;
-        margin-bottom: 7%;
-        border-radius: 15px;
-        font-family: Helvetica, sans-serif;
-        border-color: black;
-        border-width: 1px;
-        border-style: dotted;
-    }
-
-    .bouton-cpf2-mob {
-        background-color: rgb(21, 111, 255);
-        color: white;
-        text-decoration: none;
-        padding: 10px 15px;
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        white-space: nowrap;
-        margin-bottom: 7%;
-        border-radius: 15px;
-        font-family: Helvetica, sans-serif;
-    }
-
-    .bouton-cpf3-mob {
-        background-color: rgb(9, 172, 0);
-        color: #ffff;
-        text-decoration: none;
-        padding: 10px 15px;
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        white-space: nowrap;
-        margin-bottom: 7%;
-        border-radius: 15px;
-        font-family: Helvetica, sans-serif;
-    }
-
-    .triple-image {
-        overflow: hidden;
-        max-width: 960px;
-        margin: 50px auto;
-        box-shadow: 0px 15px 10px -5px #777;
-        margin-bottom: 10%;
-    }
-    
-    .triple-image-d1 {
-        width: 3900px;
-        height: 200px;
-        background-color: #EDEDED;
-        background-image: url(tripleimageindex.svg);
-        background-size: contain;
-        animation: defilement1 50s linear infinite;
-    }
-
     .rectangle_orange,
     .plan-tarif-container,
     .plan-avantage-container,
@@ -1963,142 +1742,4 @@ textarea {
 }
 
 @media screen and (max-width:376px) {
-
-
-    .formu-test h2 {
-        color: #5a5a5a;
-        font-weight: 400;
-        margin-bottom: 7%;
-        font-size: 23px;
-    }
-
-    .formu-test {
-        background: #fff;
-        display: flex;
-        flex-direction: column;
-        padding: 2vw 4vw;
-        width: 80%;
-        height: 65%;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .formu-tester {
-        width: 100%;
-        height: 35vh;
-        background-color: #8ae7d7;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .formu-contact {
-        width: 90%;
-        height: 65vh;
-        background-color: #ffbd59;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        margin-top: 7%;
-        margin-bottom: 7%;
-        background-image: url(img-formu.png);
-    }
-
-    .formu {
-        width: 90%;
-        height: 90%;
-    }
-
-    .formu h2 {
-        font-size: 1.4em;
-    }
-
-    .formu input,
-    textarea {
-        border: 0;
-        margin: 3% 0;
-        padding-left: 5%;
-        outline: none;
-        background: #f5f5f5;
-        font-size: 23px;
-        border-radius: 10px;
-    }
-
-    .formu ::placeholder {
-        font-size: 70%;
-
-    }
-
-    .formu button {
-        padding: 15px;
-        background: #0cbcf2;
-        color: #EDEDED;
-        font-size: 18px;
-        border: 0;
-        outline: none;
-        cursor: pointer;
-        width: 150px;
-        margin-bottom: 3%;
-        border-radius: 30px;
-    }
-
-    .formu-tarif-mobile {
-        width: 100%;
-        height: 28vh;
-        background-color: #8ae7d7;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-
-    .formu-tarif-mob {
-        background: #fff;
-        display: flex;
-        flex-direction: column;
-        padding: 2vw 4vw;
-        width: 80%;
-        height: 60%;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .formu-tarif-mob button {
-        padding: 15px;
-        background: #0cbcf2;
-        color: #EDEDED;
-        font-size: 18px;
-        border: 0;
-        outline: none;
-        cursor: pointer;
-        width: 120px;
-        height: 50px;
-        border-radius: 30px;
-    }
-
-    .formu-tarif-mob h2 {
-        color: #5a5a5a;
-        font-weight: 400;
-        margin-bottom: 2%;
-        margin-top: 0;
-        font-size: 26px;
-    }
-
-    .formu-contact {
-        display: none;
-    }
-
-
 }
