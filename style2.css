@@ -1477,6 +1477,7 @@ textarea {
     h2 {
         font-size: 19px;
         margin-top: 10%;
+        margin-bottom: 10%;
         margin-left: 3%;
         margin-right: 3%;
         font-weight: 550;
@@ -1490,6 +1491,14 @@ textarea {
 
     h4 {
         margin-left: 3%;
+    }
+
+    hr {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-bottom: 7%;
     }
 
     .caracteristiques h5 {
@@ -1855,7 +1864,8 @@ textarea {
 
     .stripe {
         width: 80%;
-        margin-top: 5%;
+        margin-top: 15%;
+        margin-bottom: 15%;
         margin-left: auto;
         margin-right: auto;
     }
