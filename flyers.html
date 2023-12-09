@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords"
+        content="référencement, SEO, google ads, positionnement, visibilité en ligne, mots-clés, stratégie SEO, moteurs de recherche, Google">
+    <meta name="robots" content="index, follow">
+    <meta name="description"
+        content="Optimisez votre présence en ligne avec nos services de référencement. Notre équipe d'experts améliore la visibilité de votre site et stimule votre activité en ligne.">
+    <link href="style.css" rel="stylesheet">
+    <title>Référencement | Améliorez votre classement sur Google</title>
+    <link rel="icon" type="image/x-icon" href="https://webprime.fr/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="96x96" href="https://webprime.fr/logo/apple-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://webprime.fr/logo/android-icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://webprime.fr/logo/android-icon-96x96.png">
+    <link rel="manifest" href="https://webprime.fr/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://webprime.fr/logo/ms-icon-32x32.png">
+    <meta name="msapplication-TileImage" content="https://webprime.fr/logo/ms-icon-96x96.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="navigation2">
+        <nav class="navbar light-mode" role="navigation">
+            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/WebPrime 750.png"
+                        alt="webprime-site-internet-referencement"></a></div>
+            <ul class="navbar__links">
+                <li class="navbar__link first"><a href="index.html"><img class="icon-nav" src="maison.gif"
+                            alt="webprime"> Accueil</a></li>
+                <li class="navbar__link second"><a href="sites-web.html"><img class="icon-nav" src="sensible.gif"
+                            alt="site-web"> Sites Web</a></li>
+                <li class="navbar__link third"><a href="referencement.html"><img class="icon-nav" src="fusee.gif"
+                            alt="referencement-naturel"> Référencement</a></li>
+                <li class="navbar__link four"><a href="tarifs.html"><img class="icon-nav" src="etiquette-de-prix.gif"
+                            alt="site-pas-cher"> Tarifs</a></li>
+                <li class="navbar__link fifth"><a href="trading-bot.html"><img class="icon-nav" src="trading.gif"
+                            alt="site-pas-cher"> Robots Trading</a></li>
+            </ul>
+            <button class="burger">
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </div>
+    <div class="titre-mouvent">
+        <p>
+            <span>
+                flyers
+            </span>
+        </p>
+        <p>
+            <span>
+                sur mesure
+            </span>
+        </p>
+    </div>
+    <div class="stripe">
+        <h5>FLYERS</h5>
+        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+        <stripe-pricing-table pricing-table-id="prctbl_1OIFlLJLYhAiRKw0ri1qNy0o"
+            publishable-key="pk_live_51O72RNJLYhAiRKw05SBS66PHBm6NLbc7qAhxmf6DhUTAiuhN3J2tfuzLeAD707KE5QIWfihx2JA6sTcA6aQHdfye00vIaxpgcg">
+        </stripe-pricing-table>
+    </div>
+    <div class="liens-utile2-container">
+        <div class="liens-utiles2">
+            <h2>Contact</h2>
+            <a href="https://wa.me/message/XRFEWEFU4N6DO1" target="_blank"><ion-icon class="iconwhatsapp"
+                    name="logo-whatsapp"></ion-icon>
+                WhatsApp</a>
+            <a href="mailto:contact@webprime.fr"><ion-icon class="icon-mail" name="mail-outline"></ion-icon>
+                contact@webprime.fr</a>
+            <a href="tel:0767930456"><ion-icon class="icon-tel" name="call-outline"></ion-icon> 07 67 93 04 56</a>
+        </div>
+    </div>
+    <div class="formu-contact">
+        <form class="formu">
+            <h2>Besoin de <strong class="strong-color">SEO</strong> ? <br>Contactez-nous</h2>
+            <input type="text" id="name" placeholder="Nom" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="name" placeholder="Téléphone" required>
+            <textarea id="message" rows="4" placeholder="Pouvons-nous vous aider ?"></textarea>
+            <button type="envoyer">Envoyer</button>
+        </form>
+    </div>
+    <div class="liens-utiles">
+        <h2>Liens utiles</h2>
+        <a href="tarifs.html">Tarifs / Devis</a>
+        <a href="mentionslegales.html" target="_blank">Mentions légales</a>
+        <a href="CGV.html" target="_blank">Conditions générales de vente</a>
+        <a href="pdc.html" target="_blank">Politique de confidentialité</a>
+        <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=FR"
+            target="_blank">Règlement en ligne des litiges</a>
+    </div>
+    <div class="contact-icon-whatsapp"><a href="https://wa.me/message/XRFEWEFU4N6DO1" target="_blank"><img
+                src="whatsapp.png" alt="contact"></a>
+    </div>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+            item.addEventListener('mouseover', activeLink));
+    </script>
+    <script> function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            const burger = document.querySelector('.burger');
+
+            burger.addEventListener('click', (e) => {
+                navbar.classList.toggle('show-nav');
+            });
+            // bonus
+            const navbarLinks = document.querySelectorAll('.navbar a');
+            navbarLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    navbar.classList.toggle('show-nav');
+                });
+            })
+
+        }
+        toggleMenu();
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.8
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-up');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+            const elements = document.querySelectorAll('.texte-seo-2');
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+
+</html>
