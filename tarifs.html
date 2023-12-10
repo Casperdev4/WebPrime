@@ -23,27 +23,51 @@
 </head>
 
 <body>
-    <div class="navigation2">
-        <nav class="navbar light-mode" role="navigation">
-            <div class="navbar__logo"><a href="index.html"><img class="logo" src="./logo/WebPrime 750.png"
-                        alt="webprime-site-internet-referencement"></a></div>
-            <ul class="navbar__links">
-                <li class="navbar__link first"><a href="index.html"><img class="icon-nav" src="maison.gif"
-                            alt="webprime"> Accueil</a></li>
-                <li class="navbar__link second"><a href="sites-web.html"><img class="icon-nav" src="sensible.gif"
-                            alt="site-web"> Sites Web</a></li>
-                <li class="navbar__link third"><a href="referencement.html"><img class="icon-nav" src="fusee.gif"
-                            alt="referencement-naturel"> Référencement</a></li>
-                <li class="navbar__link four"><a href="tarifs.html"><img class="icon-nav" src="etiquette-de-prix.gif"
-                            alt="site-pas-cher"> Tarifs</a></li>
-                <li class="navbar__link fifth"><a href="trading-bot.html"><img class="icon-nav" src="trading.gif"
-                            alt="site-pas-cher"> Robots Trading</a></li>
-            </ul>
-            <button class="burger">
-                <span class="bar"></span>
-            </button>
-        </nav>
-    </div>
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="./logo/WebPrime 750.png" alt="" class="logo">
+        </a>
+        <label for="btn" class="icon">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="80" height="11"></rect>
+                <rect y="26" width="60" height="11"></rect>
+                <rect y="52" width="40" height="11"></rect>
+            </svg>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a href="sites-web.html">Sites Web</a>
+            </li>
+            <li class="nav-item">
+                <a href="referencement.html">Référencement</a>
+            </li>
+            <li class="nav-item">
+                <label for="btn2" class="show">Tarifs +</label>
+                <input type="checkbox" id="btn2">
+                <ul class="dropdown">
+                    <li class="drop-item">
+                        <a href="tarifs.html">Sites Web</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="flyers.html">Flyers</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="cartes-de-visite.html">Cartes de visite</a>
+                    </li>
+                    <li class="drop-item">
+                        <a href="cartes-de-fidelite.html">Cartes de fidélité</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="trading-bot.html">Robots Trading</a>
+            </li>
+        </ul>
+    </nav>
     <div class="titre-mouvent">
         <p>
             <span>
@@ -267,7 +291,6 @@
         la réalisation du projet.
         Ensuite, nous vous enverrons un e-mail de confirmation avec votre facture personnalisée.</i>
     </p>
-    <h2 class="titre-alacarte"><strong>NOS PRODUITS</strong></h2>
     <div class="plan-carteee-container">
         <section class="plan-carteee">
             <div class="plan-carteee__header">
@@ -345,27 +368,6 @@
                     class="plan-carteee__button">payer</a>
             </div>
         </section>
-    </div>
-    <div class="stripe">
-        <h5>FLYERS</h5>
-        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-        <stripe-pricing-table pricing-table-id="prctbl_1OIFlLJLYhAiRKw0ri1qNy0o"
-            publishable-key="pk_live_51O72RNJLYhAiRKw05SBS66PHBm6NLbc7qAhxmf6DhUTAiuhN3J2tfuzLeAD707KE5QIWfihx2JA6sTcA6aQHdfye00vIaxpgcg">
-        </stripe-pricing-table>
-    </div>
-    <div class="stripe">
-        <h5>CARTES DE VISITE</h5>
-        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-        <stripe-pricing-table pricing-table-id="prctbl_1OIGksJLYhAiRKw0RsT6G1oC"
-            publishable-key="pk_live_51O72RNJLYhAiRKw05SBS66PHBm6NLbc7qAhxmf6DhUTAiuhN3J2tfuzLeAD707KE5QIWfihx2JA6sTcA6aQHdfye00vIaxpgcg">
-        </stripe-pricing-table>
-    </div>
-    <div class="stripe">
-        <h5>CARTES DE FIDÉLITÉ</h5>
-        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-        <stripe-pricing-table pricing-table-id="prctbl_1OK15wJLYhAiRKw0GzM5VuiI"
-            publishable-key="pk_live_51O72RNJLYhAiRKw05SBS66PHBm6NLbc7qAhxmf6DhUTAiuhN3J2tfuzLeAD707KE5QIWfihx2JA6sTcA6aQHdfye00vIaxpgcg">
-        </stripe-pricing-table>
     </div>
     <h5>Démarche Rapide (Recommandé)</h5>
     <div class="etape-mobile" id="etape1">
@@ -461,23 +463,18 @@
         list.forEach((item) =>
             item.addEventListener('mouseover', activeLink));
     </script>
-    <script> function toggleMenu() {
-            const navbar = document.querySelector('.navbar');
-            const burger = document.querySelector('.burger');
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var menuToggle = document.getElementById("btn");
+            var navLinks = document.querySelectorAll(".nav-menu a");
 
-            burger.addEventListener('click', (e) => {
-                navbar.classList.toggle('show-nav');
-            });
-            // bonus
-            const navbarLinks = document.querySelectorAll('.navbar a');
-            navbarLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    navbar.classList.toggle('show-nav');
+            // Ferme le menu lorsqu'un lien est cliqué
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    menuToggle.checked = false;
                 });
-            })
-
-        }
-        toggleMenu();
+            });
+        });
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
