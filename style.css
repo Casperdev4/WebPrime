@@ -1300,7 +1300,7 @@ body {
 @media screen and (max-width:767.98px) {
 
     body {
-        margin-top: 18%;
+        margin-top: 19%;
     }
 
     /*  Navigation */
@@ -1406,6 +1406,14 @@ body {
         font-size: 19px;
         margin-top: 15%;
         font-weight: 550;
+    }
+
+    h3 {
+        color: #222;
+        text-align: center;
+        font-weight: 350;
+        font-size: 18px;
+        margin-top: 15%;
     }
 
     p {
