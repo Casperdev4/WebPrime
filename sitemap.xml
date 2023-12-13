@@ -121,6 +121,26 @@
         <image:caption>Création de robot de trading sur mesure - Développez une solution automatisée pour traiter sur les marchés financiers.</image:caption>
         <image:title>Robot de Trading Sur Mesure</image:title>
     </image:image>
+    <image:image>
+        <image:loc>https://webprime.fr/vpoc.png</image:loc>
+        <image:caption>Création de robot de trading sur mesure - Développez une solution automatisée pour traiter sur les marchés financiers.</image:caption>
+        <image:title>Robot de Trading Sur Mesure</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://webprime.fr/supertrend.png</image:loc>
+        <image:caption>Création de robot de trading sur mesure - Développez une solution automatisée pour traiter sur les marchés financiers.</image:caption>
+        <image:title>Robot de Trading Sur Mesure</image:title>
+    </image:image>
+    <video:video>
+        <video:content_loc>https://webprime.fr/vpoc.mp4</video:content_loc>
+        <video:title>Robot de Trading Sur Mesure</video:title>
+        <video:description>Création de robot de trading sur mesure - Développez une solution automatisée pour traiter sur les marchés financiers.</video:description>
+    </video:video>
+    <video:video>
+        <video:content_loc>https://webprime.fr/supertrend.mp4</video:content_loc>
+        <video:title>Robot de Trading Sur Mesure</video:title>
+        <video:description>Création de robot de trading sur mesure - Développez une solution automatisée pour traiter sur les marchés financiers.</video:description>
+    </video:video>
 </url>
 
 <url>
