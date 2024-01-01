@@ -87,18 +87,10 @@ p {
     margin-bottom: 5%;
 }
 
-.text-paypal {
-    text-align: left;
-}
-
 .details-offres {
     text-align: left;
     margin-top: 7%;
     margin-bottom: 7%;
-}
-
-.paypal-prelevement-texte h5 {
-    margin-top: 13%;
 }
 
 .hr {
@@ -950,14 +942,6 @@ textarea {
 
 .image_general-siteweb img {
     width: 50%;
-}
-
-.paypal-prelevement-texte img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    margin-top: 7%;
 }
 
 .liens-utile2-container {
@@ -2130,18 +2114,6 @@ body {
     .contact-icon-whatsapp img {
         display: block;
         width: 45px;
-    }
-
-    .paypal-prelevement-texte h5 {
-        margin-top: 15%;
-    }
-
-    .paypal-prelevement-texte img {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-        margin-top: 10%;
     }
 
     .bouton_cpf {
