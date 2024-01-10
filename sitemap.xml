@@ -3,6 +3,11 @@
 
 <url>
 <loc>https://webprime.fr</loc>
+  <video:video>
+    <video:content_loc>https://webprime.fr/index-video.mp4</video:content_loc>
+    <video:title>Création de site internet et Référencement</video:title>
+    <video:description>Création de sites web et expert en référencement, propulsant votre présence en ligne vers de nouveaux sommets.</video:description>
+  </video:video>
     <image:image>
         <image:loc>https://webprime.fr/siteweb.jpg</image:loc>
         <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
