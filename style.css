@@ -1630,18 +1630,6 @@ body {
         height: 530px;
     }
 
-    .plan-avantage-mobile1,
-    .plan-avantage-mobile2,
-    .plan-avantage-mobile3,
-    .plan-avantage-mobile4,
-    .plan-avantage-mobile5,
-    .plan-avantage-mobile6,
-    .plan-avantage-mobile7,
-    .plan-avantage-mobile8,
-    .plan-avantage-mobile9,
-    .plan-web-mobile1,
-    .plan-web-mobile2,
-    .plan-web-mobile3,
     .texte-seo-2 {
         opacity: 0;
         transform: translateY(20%);

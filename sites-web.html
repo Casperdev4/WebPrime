@@ -449,7 +449,7 @@
             <button type="envoyer">VOIR</button>
         </form>
     </div>
-    <h2>Les atouts de nos <strong class="strong-color">sites internet</strong>.</h2>
+    <h2>Les atouts des <strong class="strong-color">sites internet</strong>.</h2>
     <div class="plan-web-container">
         <section class="plan-web">
             <div class="plan-web__header">
@@ -689,30 +689,6 @@
                 link.addEventListener("click", function () {
                     menuToggle.checked = false;
                 });
-            });
-        });
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const options = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.8
-            };
-
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('slide-up');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, options);
-
-            const elements = document.querySelectorAll('.plan-avantage-mobile1, .plan-avantage-mobile2, .plan-avantage-mobile3, .plan-avantage-mobile4, .plan-avantage-mobile5, .plan-avantage-mobile6, .plan-avantage-mobile7, .plan-avantage-mobile8, .plan-avantage-mobile9, .plan-web-mobile1, .plan-web-mobile2, .plan-web-mobile3');
-
-            elements.forEach(element => {
-                observer.observe(element);
             });
         });
     </script>
