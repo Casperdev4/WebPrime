@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords"
-    content="carte de visite, conception de cartes professionnelles, impression de cartes, design de cartes, réseau professionnel">
+        content="carte de visite, conception de cartes professionnelles, impression de cartes, design de cartes, réseau professionnel">
     <meta name="robots" content="index, follow">
     <meta name="description"
-    content="Créez une première impression mémorable avec nos services de conception et d'impression de cartes de visite professionnelles. Découvrez notre expertise pour renforcer votre image professionnelle.">
+        content="Créez une première impression mémorable avec nos services de conception et d'impression de cartes de visite professionnelles. Découvrez notre expertise pour renforcer votre image professionnelle.">
     <title>Création de cartes de visite - Essonne 91</title>
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://webprime.fr/favicon.ico">
@@ -78,7 +78,8 @@
     <h3>POURQUOI UTILISER DES CARTES DE VISITE ?</h3>
     <div class="texte-seo-2">
         <p>
-            <strong class="strong-color">Les cartes de visite</strong> sont un moyen classique mais toujours efficace de créer des connexions
+            <strong class="strong-color">Les cartes de visite</strong> sont un moyen classique mais toujours efficace de
+            créer des connexions
             professionnelles. Elles facilitent l'échange d'informations de contact de manière rapide et formelle lors de
             rencontres professionnelles, de conférences ou d'événements.
         </p>
@@ -97,7 +98,7 @@
         </p>
     </div>
     <div class="formu-contact">
-        <form class="formu" method="post" action="mailto:contact@webprime.fr">
+        <form class="formu" method="post">
             <h2>Une question ? <br>Contactez-nous</h2>
             <input type="text" id="name" placeholder="Nom" required>
             <input type="email" id="email" placeholder="Email" required>
@@ -164,6 +165,18 @@
 
             elements.forEach(element => {
                 observer.observe(element);
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.formu');
+
+            form.addEventListener('submit', function (event) {
+                var subject = "Demande d'information";
+                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject);
+
+                this.action = mailtoLink;
             });
         });
     </script>

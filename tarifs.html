@@ -348,7 +348,7 @@
         <h6>Livraison du projet.</h6>
     </div>
     <div class="formu-contact">
-        <form class="formu">
+        <form class="formu" method="post">
             <h2>Un <strong class="strong-color">devis</strong> ? <strong class="strong-color">Question</strong> ?
                 <br>Contactez-nous
             </h2>
@@ -429,6 +429,18 @@
             }
         });
     </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var form = document.querySelector('.formu');
+        
+                form.addEventListener('submit', function (event) {
+                    var subject = "Demande d'information";
+                    var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject);
+        
+                    this.action = mailtoLink;
+                });
+            });
+        </script>
 </body>
 
 </html>

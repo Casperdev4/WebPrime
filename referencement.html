@@ -278,7 +278,7 @@
         </p>
     </div>
     <div class="formu-contact">
-        <form class="formu">
+        <form class="formu" method="post">
             <h2>Besoin de <strong class="strong-color">SEO</strong> ? <br>Contactez-nous</h2>
             <input type="text" id="name" placeholder="Nom" required>
             <input type="email" id="email" placeholder="Email" required>
@@ -348,6 +348,18 @@
             });
         });
     </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var form = document.querySelector('.formu');
+        
+                form.addEventListener('submit', function (event) {
+                    var subject = "Demande d'information";
+                    var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject);
+        
+                    this.action = mailtoLink;
+                });
+            });
+        </script>
 </body>
 
 </html>

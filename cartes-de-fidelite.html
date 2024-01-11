@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords"
-    content="carte de fidélité, conception de cartes, programmes de fidélité, personnalisation, avantages clients, récompenses">
+        content="carte de fidélité, conception de cartes, programmes de fidélité, personnalisation, avantages clients, récompenses">
     <meta name="robots" content="index, follow">
     <meta name="description"
-    content="Offrez à vos clients des cartes de fidélité uniques et personnalisées. Découvrez nos services de conception de cartes pour renforcer la fidélité de votre clientèle.">
-        <title>Création cartes de fidélité - Essonnes 91</title>
+        content="Offrez à vos clients des cartes de fidélité uniques et personnalisées. Découvrez nos services de conception de cartes pour renforcer la fidélité de votre clientèle.">
+    <title>Création cartes de fidélité - Essonnes 91</title>
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://webprime.fr/favicon.ico">
     <link rel="apple-touch-icon" type="image/png" sizes="96x96" href="https://webprime.fr/logo/apple-icon-96x96.png">
@@ -97,7 +97,7 @@
         </p>
     </div>
     <div class="formu-contact">
-        <form class="formu" method="post" action="mailto:contact@webprime.fr">
+        <form class="formu" method="post">
             <h2>Une question ? <br>Contactez-nous</h2>
             <input type="text" id="name" placeholder="Nom" required>
             <input type="email" id="email" placeholder="Email" required>
@@ -164,6 +164,18 @@
 
             elements.forEach(element => {
                 observer.observe(element);
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.formu');
+
+            form.addEventListener('submit', function (event) {
+                var subject = "Demande d'information";
+                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject);
+
+                this.action = mailtoLink;
             });
         });
     </script>
