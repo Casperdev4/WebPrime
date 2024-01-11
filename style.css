@@ -1609,7 +1609,8 @@ body {
     .plan-avantage-mobile9 {
         display: flex;
         justify-content: center;
-        margin-top: 3%;
+        margin-top: 8%;
+        margin-bottom: 7%;
     }
 
     .plan-avantage-mobile1 .plan-avantage,
