@@ -378,8 +378,13 @@
             });
         });
     </script>
-    <script>
-        function envoyerFormulaire() {
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var form = document.querySelector('.formu');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
+
             var nom = document.getElementById('name').value;
             var email = document.getElementById('email').value;
             var telephone = document.getElementsByName('telephone')[0].value;
@@ -394,8 +399,10 @@
 
             // Ouvrir le lien mailto dans une nouvelle fenêtre
             window.open(mailtoLink, '_blank');
-        }
-    </script>
+        });
+    });
+</script>
+
 </body>
 
 </html>
