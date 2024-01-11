@@ -378,36 +378,34 @@
             });
         });
     </script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var form = document.querySelector('.formu');
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.formu');
 
-        form.addEventListener('submit', function (event) {
-            event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
 
-            var nom = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var telephone = document.getElementsByName('telephone')[0].value;
-            var domaine = document.getElementById('domaine').value;
-            var site = document.getElementById('site').value;
-            var message = document.getElementById('message').value;
+                var nom = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var telephone = document.getElementsByName('telephone')[0].value;
+                var domaine = document.getElementById('domaine').value;
+                var site = document.getElementById('site').value;
+                var message = document.getElementById('message').value;
 
-            var subject = "Demande d'information";
-            var body = "Nom: " + nom + "\nEmail: " + email + "\nTéléphone: " + telephone + "\nSecteur d'activité: " + domaine + "\nSite web souhaité: " + site + "\nMessage: " + message;
+                var subject = "Demande d'information";
+                var body = "Nom: " + nom + "\nEmail: " + email + "\nTéléphone: " + telephone + "\nSecteur d'activité: " + domaine + "\nSite web souhaité: " + site + "\nMessage: " + message;
 
-            var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
-            // Créer un lien dynamique
-            var mailtoAnchor = document.createElement('a');
-            mailtoAnchor.href = mailtoLink;
+                // Créer un lien dynamique
+                var mailtoAnchor = document.createElement('a');
+                mailtoAnchor.href = mailtoLink;
 
-            // Simuler un clic sur le lien
-            mailtoAnchor.click();
+                // Simuler un clic sur le lien
+                mailtoAnchor.click();
+            });
         });
-    });
-</script>
-
-
+    </script>
 </body>
 
 </html>

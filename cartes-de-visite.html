@@ -99,11 +99,28 @@
     </div>
     <div class="formu-contact">
         <form class="formu" method="post">
-            <h2>Une question ? <br>Contactez-nous</h2>
-            <input type="text" id="name" placeholder="Nom" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="text" id="entreprise" placeholder="Entreprise / Particulier">
-            <textarea id="message" rows="4" placeholder="Pouvons-nous vous aider ?" required></textarea>
+            <h2>Contactez-nous</h2>
+            <input type="text" id="name" name="nom" placeholder="Nom" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="tel" name="telephone" placeholder="Téléphone" required>
+            <select id="domaine" name="domaine" required>
+                <option value="" disabled selected hidden>Secteur d'activité :</option>
+                <option value="Particulier">Particulier</option>
+                <option value="Batiment">Batiment</option>
+                <option value="Informatique">Informatique</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Restauration">Restauration</option>
+                <option value="Beauté">Beauté</option>
+                <option value="Santé">Santé</option>
+                <option value="Autre">Autre</option>
+            </select>
+            <select id="site" name="site" required>
+                <option value="" disabled selected hidden>Site web souhaité :</option>
+                <option value="Vitrine">Vitrine : 0€</option>
+                <option value="Catalogue">Catalogue : 3000€</option>
+                <option value="E-commerce">E-commerce : 5880€</option>
+            </select>
+            <textarea id="message" name="message" rows="4" placeholder="Pouvons-nous vous aider ?"></textarea>
             <button type="submit">Envoyer</button>
         </form>
     </div>
@@ -168,30 +185,34 @@
             });
         });
     </script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var form = document.getElementById('contactForm');
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.formu');
 
-        form.addEventListener('submit', function (event) {
-            event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
 
-            var nom = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var telephone = document.getElementsByName('telephone')[0].value;
-            var domaine = document.getElementById('domaine').value;
-            var site = document.getElementById('site').value;
-            var message = document.getElementById('message').value;
+                var nom = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var telephone = document.getElementsByName('telephone')[0].value;
+                var domaine = document.getElementById('domaine').value;
+                var site = document.getElementById('site').value;
+                var message = document.getElementById('message').value;
 
-            var subject = "Demande d'information";
-            var body = "Nom: " + nom + "\nEmail: " + email + "\nTéléphone: " + telephone + "\nSecteur d'activité: " + domaine + "\nSite web souhaité: " + site + "\nMessage: " + message;
+                var subject = "Demande d'information";
+                var body = "Nom: " + nom + "\nEmail: " + email + "\nTéléphone: " + telephone + "\nSecteur d'activité: " + domaine + "\nSite web souhaité: " + site + "\nMessage: " + message;
 
-            var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
-            // Rediriger vers le lien mailto
-            window.location.href = mailtoLink;
+                // Créer un lien dynamique
+                var mailtoAnchor = document.createElement('a');
+                mailtoAnchor.href = mailtoLink;
+
+                // Simuler un clic sur le lien
+                mailtoAnchor.click();
+            });
         });
-    });
-</script>
+    </script>
 
 </body>
 
