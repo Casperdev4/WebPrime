@@ -671,7 +671,7 @@ p:nth-child(2) span::after {
     color: #ffffff;
     font-size: 33px;
     margin-top: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 
 .form-container label {
@@ -680,7 +680,11 @@ p:nth-child(2) span::after {
 
 .form-container input,
 .form-container select {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     padding: 13px;
     padding-right: 550px;
     margin-bottom: 4%;
@@ -693,7 +697,11 @@ p:nth-child(2) span::after {
 }
 
 .form-container textarea {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: 100px;
     padding-left: 13px;
     padding-top: 13px;
@@ -708,7 +716,7 @@ p:nth-child(2) span::after {
     padding-left: 150px;
     padding-right: 150px;
     font-size: 18px;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-bottom: 2%;
     margin-right: auto;
     margin-left: auto;
