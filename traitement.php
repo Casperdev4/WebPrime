@@ -1,17 +1,19 @@
 <?php
 
-$nom = $_POST['nom'];
-$email = $_POST['e-mail'];
-$telephone = $_POST['telephone'];
-$services = $_POST['services'];
+$nom = htmlspecialchars($_POST['nom']);
+$email = htmlspecialchars($_POST['e-mail']);
+$telephone = htmlspecialchars($_POST['telephone']);
+$domaines = htmlspecialchars($_POST['domaines']);
+$site = htmlspecialchars($_POST['site']);
+$comment = htmlspecialchars($_POST['comment']);
 
 $message = "Nom: $nom \n";
 $message .= "E-mail: $email \n";
 $message .= "Téléphone: $telephone \n";
-$message .= "Prestations: $services \n";
+$message .= "Secteur d'activité: $domaines \n";
+$message .= "Site web souhaité: $site \n";
+$message .= "Commentaires: $comment \n"; 
 
-// Import PHPMailer classes into the global namespace
-// These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
@@ -20,25 +22,24 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-// Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
 try {
     // Server settings
-    $mail->isSMTP();                                      // Send using SMTP
-    $mail->Host       = 'smtp.ionos.fr';                  // Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                             // Enable SMTP authentication
-    $mail->Username   = 'contact@webprime.fr';            // SMTP username (votre adresse email complète)
-    $mail->Password   = 'Allamalyjass912!';               // SMTP password (votre mot de passe)
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;   // Enable TLS encryption
-    $mail->Port       = 465;                              // TCP port to connect to (port alternatif)
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.ionos.fr';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'contact@webprime.fr';
+    $mail->Password   = 'Allamalyjass912!'; 
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
+    $mail->Port       = 465;
 
     // Recipients
     $mail->setFrom('contact@webprime.fr', 'Assainissement 75');
-    $mail->addAddress('contact.aquaserv@gmail.com');  // Remplacez par l'adresse email du destinataire
+    $mail->addAddress('contact.aquaserv@gmail.com');
 
     // Content
-    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->isHTML(true);
     $mail->Subject = 'Formulaire de contact';
     $mail->Body    = $message;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';

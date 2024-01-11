@@ -257,33 +257,40 @@
         <img src="client.gif" alt="nouveaux-clients">
         <p>Nouvelle Clientèle</p>
     </div>
-    <div class="formu-contact">
-        <form class="formu" method="post">
-            <h2>Contactez-nous</h2>
-            <input type="text" id="name" name="nom" placeholder="Nom" required>
-            <input type="email" id="email" name="email" placeholder="Email" required>
-            <input type="tel" name="telephone" placeholder="Téléphone" required>
-            <select id="domaine" name="domaine" required>
-                <option value="" disabled selected hidden>Secteur d'activité :</option>
-                <option value="Particulier">Particulier</option>
-                <option value="Batiment">Batiment</option>
-                <option value="Informatique">Informatique</option>
-                <option value="Commerce">Commerce</option>
-                <option value="Restauration">Restauration</option>
-                <option value="Beauté">Beauté</option>
-                <option value="Santé">Santé</option>
-                <option value="Autre">Autre</option>
+    <div class="form-container">
+        <h2>Besoin d'un site web ?<br>Contactez-nous</h2>
+        <form action="traitement.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="nom" required placeholder="Nom">
+            <label for="email">E-mail :</label>
+            <input type="text" id="email" name="e-mail" required placeholder="E-mail">
+            <label for="tel">Téléphone :</label>
+            <input type="text" id="tel" name="telephone" required placeholder="Téléphone">
+            <label for="domaines">Secteur d'activité :</label>
+            <select id="domaines" name="domaines" required>
+                <option value="SECTEUR D'ACTIVITÉ">SECTEUR D'ACTIVITÉ</option>
+                <option value="BÂTIMENT">BÂTIMENT</option>
+                <option value="INFORMATIQUE">INFORMATIQUE</option>
+                <option value="HÔTELLERIE">HÔTELLERIE</option>
+                <option value="RESTAURATION">RESTAURATION</option>
+                <option value="SANTÉ">SANTÉ</option>
+                <option value="BEAUTÉ">BEAUTÉ</option>
+                <option value="COMMERCE">COMMERCE</option>
+                <option value="PARTICULIER">PARTICULIER</option>
+                <option value="AUTRE">AUTRE</option>
             </select>
+            <label for="site">Site web souhaité :</label>
             <select id="site" name="site" required>
-                <option value="" disabled selected hidden>Site web souhaité :</option>
-                <option value="Vitrine">Vitrine : 0€</option>
-                <option value="Catalogue">Catalogue : 3000€</option>
-                <option value="E-commerce">E-commerce : 5880€</option>
+                <option value="SITE WEB SOUHAITÉ">SITE WEB SOUHAITÉ</option>
+                <option value="VITRINE">VITRINE : 0€</option>
+                <option value="CATALOGUE">CATALOGUE : 3000€</option>
+                <option value="E-COMMERCE">E-COMMERCE : 5080€</option>
             </select>
-            <textarea id="message" name="message" rows="4" placeholder="Pouvons-nous vous aider ?"></textarea>
-            <button type="submit">Envoyer</button>
+            <label for="comment">Commentaires :</label>
+            <textarea id="comment" name="comment" placeholder="Dites - nous en plus"></textarea>
+            <button type="submit">ENVOYER</button>
         </form>
-    </div>
+    </div>    
     <div class="liens-utiles">
         <h2>Liens utiles</h2>
         <a href="tarifs.html">Tarifs / Devis</a>
@@ -375,34 +382,6 @@
 
             elements.forEach(element => {
                 observer.observe(element);
-            });
-        });
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var form = document.querySelector('.formu');
-
-            form.addEventListener('submit', function (event) {
-                event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
-
-                var nom = document.getElementById('name').value;
-                var email = document.getElementById('email').value;
-                var telephone = document.getElementsByName('telephone')[0].value;
-                var domaine = document.getElementById('domaine').value;
-                var site = document.getElementById('site').value;
-                var message = document.getElementById('message').value;
-
-                var subject = "Demande d'information";
-                var body = "Nom: " + nom + "\nEmail: " + email + "\nTéléphone: " + telephone + "\nSecteur d'activité: " + domaine + "\nSite web souhaité: " + site + "\nMessage: " + message;
-
-                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-
-                // Créer un lien dynamique
-                var mailtoAnchor = document.createElement('a');
-                mailtoAnchor.href = mailtoLink;
-
-                // Simuler un clic sur le lien
-                mailtoAnchor.click();
             });
         });
     </script>
