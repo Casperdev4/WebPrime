@@ -397,11 +397,16 @@
 
             var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
-            // Ouvrir le lien mailto dans une nouvelle fenêtre
-            window.open(mailtoLink, '_blank');
+            // Créer un lien dynamique
+            var mailtoAnchor = document.createElement('a');
+            mailtoAnchor.href = mailtoLink;
+
+            // Simuler un clic sur le lien
+            mailtoAnchor.click();
         });
     });
 </script>
+
 
 </body>
 
