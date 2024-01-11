@@ -102,8 +102,8 @@
             <div class="plan-tarif__actions">
                 <p class="plan-tarif__cost">0€</p>
                 <p class="plan-tarif__text">Jusqu'au 31/03/24.</p>
-                <a href="https://buy.stripe.com/00g29JdWdevMaqI5kt"
-                    target="_blank" class="plan-tarif__button">COMMANDER</a>
+                <a href="https://buy.stripe.com/00g29JdWdevMaqI5kt" target="_blank"
+                    class="plan-tarif__button">COMMANDER</a>
                 <p class="plan-tarif__text2">159€ par mois pour le<strong> référencement</strong>.</p>
             </div>
         </section>
@@ -129,8 +129,8 @@
             <div class="plan-tarif__actions">
                 <p class="plan-tarif__cost">315€ ht</p>
                 <p class="plan-tarif__text">Pendant 24 mois.</p>
-                <a href="https://buy.stripe.com/cN2dSr05nbjAbuM14e"
-                    target="_blank" class="plan-tarif__button">COMMANDER</a>
+                <a href="https://buy.stripe.com/cN2dSr05nbjAbuM14e" target="_blank"
+                    class="plan-tarif__button">COMMANDER</a>
             </div>
         </section>
         <section class="plan-tarif">
@@ -156,8 +156,8 @@
             <div class="plan-tarif__actions">
                 <p class="plan-tarif__cost">435€ ht</p>
                 <p class="plan-tarif__text">Pendant 24 mois.</p>
-                <a href="https://buy.stripe.com/00g6pZ2dv3R842kdR1"
-                    target="_blank" class="plan-tarif__button">COMMANDER</a>
+                <a href="https://buy.stripe.com/00g6pZ2dv3R842kdR1" target="_blank"
+                    class="plan-tarif__button">COMMANDER</a>
             </div>
         </section>
     </div>
@@ -182,9 +182,9 @@
             <div class="plan-tarif__actions">
                 <p class="plan-tarif__cost">0€</p>
                 <p class="plan-tarif__text">Jusqu'au 31/03/24.</p>
-                <a href="https://buy.stripe.com/00g29JdWdevMaqI5kt"
-                    target="_blank" class="plan-tarif__button">COMMANDER</a>
-                    <p class="plan-tarif__text2">159€ par mois pour le<strong> référencement</strong>.</p>
+                <a href="https://buy.stripe.com/00g29JdWdevMaqI5kt" target="_blank"
+                    class="plan-tarif__button">COMMANDER</a>
+                <p class="plan-tarif__text2">159€ par mois pour le<strong> référencement</strong>.</p>
             </div>
         </section>
     </div>
@@ -223,8 +223,8 @@
             <div class="plan-tarif__actions">
                 <p class="plan-tarif__cost">315€ ht</p>
                 <p class="plan-tarif__text">Pendant 24 mois.</p>
-                <a href="https://buy.stripe.com/cN2dSr05nbjAbuM14e"
-                    target="_blank" class="plan-tarif__button">COMMANDER</a>
+                <a href="https://buy.stripe.com/cN2dSr05nbjAbuM14e" target="_blank"
+                    class="plan-tarif__button">COMMANDER</a>
             </div>
         </section>
     </div>
@@ -264,8 +264,8 @@
             <div class="plan-tarif__actions">
                 <p class="plan-tarif__cost">435€ ht</p>
                 <p class="plan-tarif__text">Pendant 24 mois.</p>
-                <a href="https://buy.stripe.com/00g6pZ2dv3R842kdR1"
-                    target="_blank" class="plan-tarif__button">COMMANDER</a>
+                <a href="https://buy.stripe.com/00g6pZ2dv3R842kdR1" target="_blank"
+                    class="plan-tarif__button">COMMANDER</a>
             </div>
         </section>
     </div>
@@ -429,28 +429,28 @@
             }
         });
     </script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var form = document.querySelector('.formu');
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.formu');
 
-        form.addEventListener('submit', function (event) {
-            event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
 
-            var nom = document.getElementById('nom').value;
-            var email = document.getElementById('email').value;
-            var entreprise = document.getElementById('entreprise').value;
-            var message = document.getElementById('message').value;
+                var nom = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var entreprise = document.getElementById('entreprise').value;
+                var message = document.getElementById('message').value;
 
-            var subject = "Demande d'information";
-            var body = "Nom: " + nom + "\nEmail: " + email + "\nEntreprise/Particulier: " + entreprise + "\nMessage: " + message;
+                var subject = "Demande d'information";
+                var body = "Nom: " + nom + "\nEmail: " + email + "\nEntreprise/Particulier: " + entreprise + "\nMessage: " + message;
 
-            var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
-            // Rediriger vers le lien mailto
-            window.location.href = mailtoLink;
+                // Rediriger vers le lien mailto
+                window.location.href = mailtoLink;
+            });
         });
-    });
-</script>
+    </script>
 
 </body>
 
