@@ -168,18 +168,29 @@
             });
         });
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var form = document.querySelector('.formu');
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var form = document.querySelector('.formu');
 
-            form.addEventListener('submit', function (event) {
-                var subject = "Demande d'information";
-                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject);
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
 
-                this.action = mailtoLink;
-            });
+            var nom = document.getElementById('nom').value;
+            var email = document.getElementById('email').value;
+            var entreprise = document.getElementById('entreprise').value;
+            var message = document.getElementById('message').value;
+
+            var subject = "Demande d'information";
+            var body = "Nom: " + nom + "\nEmail: " + email + "\nEntreprise/Particulier: " + entreprise + "\nMessage: " + message;
+
+            var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+            // Rediriger vers le lien mailto
+            window.location.href = mailtoLink;
         });
-    </script>
+    });
+</script>
+
 </body>
 
 </html>

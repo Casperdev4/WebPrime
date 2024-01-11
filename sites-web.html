@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="développeur web 91, meilleur développeur web, essonne 91, création site internet, site vitrine gratuit, site e-commerce, site catalogue, référencement SEO">
+    <meta name="keywords"
+        content="développeur web 91, meilleur développeur web, essonne 91, création site internet, site vitrine gratuit, site e-commerce, site catalogue, référencement SEO">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Découvrez nos services de création de sites web personnalisés. Notre équipe réalise votre vision pour un site vitrine, catalogue ou boutique en ligne.">
+    <meta name="description"
+        content="Découvrez nos services de création de sites web personnalisés. Notre équipe réalise votre vision pour un site vitrine, catalogue ou boutique en ligne.">
     <link href="style.css" rel="stylesheet">
     <title>Site vitrine gratuit - Création de sites internet</title>
     <link rel="icon" type="image/x-icon" href="https://webprime.fr/favicon.ico">
@@ -103,7 +105,8 @@
                     <li class="plan-avantage__feature">Les sites vitrine sont moins coûteux à développer
                         par rapport aux sites web plus complexes. Ils ne requièrent pas de bases de
                         données dynamiques ni de fonctionnalités avancées, ce qui réduit les coûts de développement.
-                        Le site vitrine est <strong class="strong-color">gratuit</strong> en ce moment chez WebPrime.</i>
+                        Le site vitrine est <strong class="strong-color">gratuit</strong> en ce moment chez
+                        WebPrime.</i>
                     </li><br>
                 </ul>
             </div>
@@ -148,7 +151,8 @@
                     <li class="plan-avantage__feature">Les sites vitrine sont moins coûteux à développer
                         par rapport aux sites web plus complexes. Ils ne requièrent pas de bases de
                         données dynamiques ni de fonctionnalités avancées, ce qui réduit les coûts de développement.
-                        Le site vitrine est <strong class="strong-color">gratuit</strong> en ce moment chez WebPrime.</i>
+                        Le site vitrine est <strong class="strong-color">gratuit</strong> en ce moment chez
+                        WebPrime.</i>
                     </li>
                 </ul>
             </div>
@@ -270,7 +274,8 @@
             <div class="plan-avantage__description">
                 <ul class="plan-avantage__list">
                     <li class="plan-avantage__feature">Un site catalogue permet d'afficher une vaste gamme de
-                        produits ou de services. Chaque élément est accompagné de descriptions, d'images et éventuellement de vidéos explicatives.
+                        produits ou de services. Chaque élément est accompagné de descriptions, d'images et
+                        éventuellement de vidéos explicatives.
                         Cela offre aux visiteurs une vue d'ensemble complète de ce que vous proposez, ce qui peut
                         favoriser leur prise de décision.</li>
                 </ul>
@@ -288,7 +293,8 @@
                     <li class="plan-avantage__feature">Les sites catalogue sont souvent organisés de manière
                         hiérarchique avec des catégories et des sous-catégories, ce qui facilite la navigation pour les
                         visiteurs. Les clients potentiels peuvent rapidement trouver les produits ou les services qui
-                        les intéressent. Ce qui améliore l'expérience utilisateur et les incite à rester sur votre site plus longtemps.</li>
+                        les intéressent. Ce qui améliore l'expérience utilisateur et les incite à rester sur votre site
+                        plus longtemps.</li>
                 </ul>
             </div>
         </section>
@@ -563,7 +569,8 @@
                 <ul class="plan-web__list">
                     <li class="plan-web__feature"> Ne comptez pas que sur le bouche à oreille pour développer vos
                         clients.</li>
-                    <li class="plan-web__feature"> Via internet ou encore les réseaux sociaux, votre site web vous permettra d’acquérir de nouveaux clients.</li>
+                    <li class="plan-web__feature"> Via internet ou encore les réseaux sociaux, votre site web vous
+                        permettra d’acquérir de nouveaux clients.</li>
                 </ul>
             </div>
         </section>
@@ -576,7 +583,8 @@
             </div>
             <div class="plan-web__description">
                 <ul class="plan-web__list">
-                    <li class="plan-web__feature"> Avoir un site professionnel rassure les clients, les partenaires et les fournisseurs. </li>
+                    <li class="plan-web__feature"> Avoir un site professionnel rassure les clients, les partenaires et
+                        les fournisseurs. </li>
                     <li class="plan-web__feature"> Avant de contacter votre entreprise l’internaute va juger votre
                         sérieux. Sans site vous privez votre société d’un
                         trafic important.</li>
@@ -653,7 +661,8 @@
         <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=FR"
             target="_blank">Règlement en ligne des litiges</a>
     </div>
-    <div class="contact-icon-whatsapp"><a href="https://wa.me/message/XRFEWEFU4N6DO1" target="_blank"><img src="whatsapp.png" alt="contact"></a>
+    <div class="contact-icon-whatsapp"><a href="https://wa.me/message/XRFEWEFU4N6DO1" target="_blank"><img
+                src="whatsapp.png" alt="contact"></a>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -680,18 +689,29 @@
             });
         });
     </script>
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var form = document.querySelector('.formu');
-        
-                form.addEventListener('submit', function (event) {
-                    var subject = "Demande d'information";
-                    var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject);
-        
-                    this.action = mailtoLink;
-                });
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.formu');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();  // Empêche l'envoi du formulaire traditionnel
+
+                var nom = document.getElementById('nom').value;
+                var email = document.getElementById('email').value;
+                var entreprise = document.getElementById('entreprise').value;
+                var message = document.getElementById('message').value;
+
+                var subject = "Demande d'information";
+                var body = "Nom: " + nom + "\nEmail: " + email + "\nEntreprise/Particulier: " + entreprise + "\nMessage: " + message;
+
+                var mailtoLink = 'mailto:contact@webprime.fr?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+                // Rediriger vers le lien mailto
+                window.location.href = mailtoLink;
             });
-        </script>
+        });
+    </script>
+
 </body>
 
 </html>
