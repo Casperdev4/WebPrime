@@ -1238,8 +1238,6 @@ body {
     color: #ffffff;
 }
 
-
-
 .plan-tarif-mobile1,
 #plan-tarif-mobile2,
 #plan-tarif-mobile3,
@@ -1272,7 +1270,6 @@ body {
 .contact-icon-whatsapp {
     display: none;
 }
-
 
 /*  Small device */
 @media screen and (max-width:767.98px) {
