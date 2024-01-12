@@ -35,8 +35,8 @@ try {
     $mail->Port       = 465;
 
     // Recipients
-    $mail->setFrom('contact@webprime.fr', 'Assainissement 75');
-    $mail->addAddress('contact.aquaserv@gmail.com');
+    $mail->setFrom('contact@webprime.fr', 'WebPrime');
+    $mail->addAddress('contact@webprime.fr');
 
     // Content
     $mail->isHTML(true);
