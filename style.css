@@ -1561,7 +1561,6 @@ body {
 
     .formu-tarif-mob {
         background: #fff;
-        display: flex;
         flex-direction: column;
         padding: 2vw 4vw;
         width: 80%;
@@ -1573,15 +1572,15 @@ body {
     }
 
     .formu-tarif-mob button {
-        padding: 15px;
+        padding: 10px 15px;
         background: #0cbcf2;
         color: #EDEDED;
         font-size: 18px;
         border: 0;
         outline: none;
         cursor: pointer;
-        width: 120px;
-        height: 50px;
+        width: 50%;
+        height: 40px;
         border-radius: 30px;
     }
 
@@ -2311,15 +2310,15 @@ body {
     }
 
     .formu-tarif-mob button {
-        padding: 15px;
+        padding: 10px 15px;
         background: #0cbcf2;
         color: #EDEDED;
         font-size: 18px;
         border: 0;
         outline: none;
         cursor: pointer;
-        width: 120px;
-        height: 50px;
+        width: 50%;
+        height: 40px;
         border-radius: 30px;
     }
 
