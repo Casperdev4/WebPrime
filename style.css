@@ -662,6 +662,7 @@ p:nth-child(2) span::after {
     margin-right: auto;
     width: 90%;
     background: linear-gradient(to bottom, #297fb8, #dfe4ea);
+    background-image: url('img-formu.png');
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #ffffff;
@@ -954,7 +955,6 @@ p:nth-child(2) span::after {
 
 .liens-utiles2 a:hover {
     color: #0cbcf2;
-
 }
 
 .liens-utiles2 h2 {
@@ -969,7 +969,6 @@ p:nth-child(2) span::after {
     display: block;
     text-align: center;
     margin-bottom: 4%;
-
 }
 
 .page-speed {
