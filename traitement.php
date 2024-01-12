@@ -5,6 +5,7 @@ $email = htmlspecialchars($_POST['e-mail']);
 $telephone = htmlspecialchars($_POST['telephone']);
 $domaines = htmlspecialchars($_POST['domaines']);
 $site = htmlspecialchars($_POST['site']);
+$referencement = htmlspecialchars($_POST['referencement']);
 $comment = htmlspecialchars($_POST['comment']);
 
 $message = "Nom: $nom \n";
@@ -12,6 +13,7 @@ $message .= "E-mail: $email \n";
 $message .= "Téléphone: $telephone \n";
 $message .= "Secteur d'activité: $domaines \n";
 $message .= "Site web souhaité: $site \n";
+$message .= "Référencement: $referencement \n";
 $message .= "Commentaires: $comment \n"; 
 
 use PHPMailer\PHPMailer\PHPMailer;
