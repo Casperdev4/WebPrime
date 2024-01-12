@@ -48,7 +48,6 @@ h5 {
 
 ul {
     color: #222;
-
 }
 
 p {
@@ -668,6 +667,17 @@ p:nth-child(2) span::after {
     color: #ffffff;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 .form-container h2 {
     color: #ffffff;
     font-size: 33px;
@@ -675,9 +685,6 @@ p:nth-child(2) span::after {
     margin-bottom: 5%;
 }
 
-.form-container label {
-    display: none;
-}
 
 .form-container input,
 .form-container select {
@@ -1438,10 +1445,6 @@ body {
     .form-container input::placeholder, .form-container textarea::placeholder {
         font-size: 17px;
         color: #484848;
-    }
-
-    .form-container label {
-        display: none;
     }
 
     .form-container textarea {
