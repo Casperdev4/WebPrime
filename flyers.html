@@ -99,13 +99,13 @@
     <div class="form-container">
         <h2>Besoin d'un site web ?<br>Contactez-nous</h2>
         <form action="traitement.php" method="post">
-            <label for="name">Nom :</label>
+            <label for="name" class="sr-only">Nom :</label>
             <input type="text" id="name" name="nom" required placeholder="Nom">
-            <label for="email">E-mail :</label>
+            <label for="email" class="sr-only">E-mail :</label>
             <input type="text" id="email" name="e-mail" required placeholder="E-mail">
-            <label for="tel">Téléphone :</label>
+            <label for="tel" class="sr-only">Téléphone :</label>
             <input type="text" id="tel" name="telephone" required placeholder="Téléphone">
-            <label for="domaines">Secteur d'activité :</label>
+            <label for="domaines" class="sr-only">Secteur d'activité :</label>
             <select id="domaines" name="domaines" required>
                 <option value="SECTEUR D'ACTIVITÉ">SECTEUR D'ACTIVITÉ</option>
                 <option value="BÂTIMENT">BÂTIMENT</option>
@@ -118,18 +118,18 @@
                 <option value="PARTICULIER">PARTICULIER</option>
                 <option value="AUTRE">AUTRE</option>
             </select>
-            <label for="site">Site web souhaité :</label>
+            <label for="site" class="sr-only">Site web souhaité :</label>
             <select id="site" name="site" required>
                 <option value="SITE WEB SOUHAITÉ">SITE WEB SOUHAITÉ</option>
                 <option value="VITRINE">VITRINE : 0€</option>
                 <option value="CATALOGUE">CATALOGUE : 3000€</option>
                 <option value="E-COMMERCE">E-COMMERCE : 5080€</option>
             </select>
-            <label for="comment">Commentaires :</label>
-            <textarea id="comment" name="comment" placeholder="Dites - nous en plus"></textarea>
+            <label for="comment" class="sr-only">Commentaires :</label>
+            <textarea id="comment" name="comment" placeholder="Dites - nous en plus.."></textarea>
             <button type="submit">ENVOYER</button>
         </form>
-    </div>  
+    </div>   
     <div class="liens-utiles">
         <h2>Liens utiles</h2>
         <a href="tarifs.html">Tarifs / Devis</a>
