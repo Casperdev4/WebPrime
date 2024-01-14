@@ -703,7 +703,8 @@ p:nth-child(2) span::after {
     background-color: #f2f2f2;
 }
 
-.form-container input::placeholder, .form-container textarea::placeholder {
+.form-container input::placeholder,
+.form-container textarea::placeholder {
     font-size: 19px;
     color: #383838;
 }
@@ -1457,7 +1458,8 @@ body {
         background-color: #f2f2f2;
     }
 
-    .form-container input::placeholder, .form-container textarea::placeholder {
+    .form-container input::placeholder,
+    .form-container textarea::placeholder {
         font-size: 17px;
         color: #323232;
     }
@@ -1635,20 +1637,15 @@ body {
 
     .plan-avantage-mobile1 .plan-avantage,
     .plan-avantage-mobile2 .plan-avantage,
-    .plan-avantage-mobile3 .plan-avantage {
-        height: 445px;
-    }
-
+    .plan-avantage-mobile3 .plan-avantage,
     .plan-avantage-mobile4 .plan-avantage,
     .plan-avantage-mobile5 .plan-avantage,
-    .plan-avantage-mobile6 .plan-avantage {
-        height: 530px;
-    }
-
+    .plan-avantage-mobile6 .plan-avantage,
     .plan-avantage-mobile7 .plan-avantage,
     .plan-avantage-mobile8 .plan-avantage,
     .plan-avantage-mobile9 .plan-avantage {
-        height: 530px;
+        width: 90%;
+        height: 50%;
     }
 
     .texte-seo-2 {
