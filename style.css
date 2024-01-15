@@ -702,6 +702,7 @@ p:nth-child(2) span::after {
     box-sizing: border-box;
     border-radius: 20px;
     background-color: #f2f2f2;
+    color: #000000;
 }
 
 .form-container input::placeholder,
@@ -1457,8 +1458,6 @@ body {
         margin-bottom: 8%;
         box-sizing: border-box;
         border-radius: 20px;
-        background-color: #f2f2f2;
-        color: #000000;
     }
 
     .form-container input::placeholder,
