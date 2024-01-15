@@ -1458,6 +1458,7 @@ body {
         box-sizing: border-box;
         border-radius: 20px;
         background-color: #f2f2f2;
+        color: #000000;
     }
 
     .form-container input::placeholder,
