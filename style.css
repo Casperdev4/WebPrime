@@ -1456,7 +1456,7 @@ body {
 
     .form-container h3 {
         margin-top: -13%;
-        margin-bottom: 14%;
+        margin-bottom: 13%;
     }
 
     .form-container label {
@@ -1511,10 +1511,6 @@ body {
 
     .form-container button:hover {
         background-color: #ffa929;
-    }
-
-    #passengers {
-        font-size: 15px;
     }
 
     .formu-tester {
