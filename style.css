@@ -692,6 +692,11 @@ p:nth-child(2) span::after {
     margin-bottom: 5%;
 }
 
+.form-container h3 {
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
 .form-container input,
 .form-container select {
     width: 100%;
@@ -1447,6 +1452,11 @@ body {
         margin-top: 1%;
         margin-bottom: 12%;
         font-size: 28px;
+    }
+
+    .form-container h3 {
+        margin-top: -13%;
+        margin-bottom: 14%;
     }
 
     .form-container label {
