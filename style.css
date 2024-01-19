@@ -1429,7 +1429,7 @@ body {
         align-items: center;
         width: 100%;
         max-height: 120vh;
-        min-height: 100vh;
+        min-height: 120vh;
     }
 
     .form-container {
@@ -1500,7 +1500,7 @@ body {
         padding-left: 40px;
         padding-right: 40px;
         font-size: 18px;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: 5%;
         margin-right: auto;
         margin-left: auto;
