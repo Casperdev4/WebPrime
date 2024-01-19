@@ -159,6 +159,11 @@ p {
     font-weight: 550;
 }
 
+.strong-color3 {
+    color: #ffffff;
+    font-weight: 545;
+}
+
 .site-catalogue p,
 .site-ecommerce p,
 .site-vitrine p {
