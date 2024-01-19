@@ -6,7 +6,7 @@
 }
 
 h1 {
-    color: #222;
+    color: #ffffff;
     text-align: center;
     font-weight: 500;
     margin-bottom: 5%;
@@ -310,7 +310,7 @@ p {
     margin-bottom: 7%;
 }
 
-.titre-mouvent p {
+.titre-mouvent h1 {
     text-transform: uppercase;
     color: #222;
     font-weight: 900;
@@ -318,14 +318,14 @@ p {
     font-size: 0px;
 }
 
-p span {
+h1 span {
     display: inline-block;
     position: relative;
     overflow: hidden;
     font-size: clamp(20px, 8vw, 120px);
 }
 
-p span::after {
+h1 span::after {
     content: "";
     display: block;
     position: absolute;
@@ -336,22 +336,22 @@ p span::after {
     transform: translateX(-100%);
 }
 
-p:nth-child(1) {
+h1:nth-child(1) {
     font-weight: 300;
     animation: txt-appearance 0s 1s forwards;
 }
 
-p:nth-child(2) {
+h1:nth-child(2) {
     animation: txt-appearance 0s 1.25s forwards;
 }
 
-p:nth-child(1) span::after {
+h1:nth-child(1) span::after {
     background: #afe7de;
     animation: slide-in 0.75s ease-out forwards,
         slide-out 0.75s 1s ease-out forwards;
 }
 
-p:nth-child(2) span::after {
+h1:nth-child(2) span::after {
     background: rgb(254, 218, 139);
     animation: slide-in 0.75s 0.3s ease-out forwards,
         slide-out 0.75s 1.3s ease-out forwards;
@@ -1382,6 +1382,7 @@ body {
         margin-left: 4%;
         margin-top: 10%;
         margin-bottom: 10%;
+        color: #ffffff;
     }
 
     .video-content h1 {
@@ -1840,15 +1841,14 @@ body {
         margin-bottom: 13%;
     }
 
-    .titre-mouvent p {
+    .titre-mouvent h1 {
         text-transform: uppercase;
         color: #222;
         font-weight: 900;
         color: transparent;
-        font-size: 0px;
     }
 
-    p span {
+    h1 span {
         display: flex;
         justify-content: center;
         position: relative;
@@ -1856,7 +1856,7 @@ body {
         font-size: clamp(20px, 8vw, 120px);
     }
 
-    p span::after {
+    h1 span::after {
         content: "";
         display: block;
         position: absolute;
@@ -1867,22 +1867,22 @@ body {
         transform: translateX(-100%);
     }
 
-    p:nth-child(1) {
+    h1:nth-child(1) {
         font-weight: 300;
         animation: txt-appearance 0s 1s forwards;
     }
 
-    p:nth-child(2) {
+    h1:nth-child(2) {
         animation: txt-appearance 0s 1.25s forwards;
     }
 
-    p:nth-child(1) span::after {
+    h1:nth-child(1) span::after {
         background: #afe7de;
         animation: slide-in 0.6s ease-out forwards,
             slide-out 0.75s 0.8s ease-out forwards;
     }
 
-    p:nth-child(2) span::after {
+    h1:nth-child(2) span::after {
         background: rgb(254, 218, 139);
         animation: slide-in 0.6s 0.3s ease-out forwards,
             slide-out 0.75s 1.1s ease-out forwards;
