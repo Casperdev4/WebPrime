@@ -1441,7 +1441,8 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
-        max-height: 105vh;
+        max-height: 720px;
+        min-height: 720px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         color: #ffffff;
     }
