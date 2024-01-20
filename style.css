@@ -1286,8 +1286,7 @@ body {
 .plan-carteee-mobile,
 .bouton-cpf-mob,
 .bouton-cpf2-mob,
-.bouton-cpf3-mob,
-.contact-icon-whatsapp {
+.bouton-cpf3-mob {
     display: none;
 }
 
@@ -2111,18 +2110,6 @@ body {
         text-align: center;
         font-size: 0.9em;
         color: #000000;
-    }
-
-    .contact-icon-whatsapp {
-        display: flex;
-        position: fixed;
-        right: 5%;
-        bottom: 5%;
-    }
-
-    .contact-icon-whatsapp img {
-        display: block;
-        width: 45px;
     }
 
     .bouton_cpf {
