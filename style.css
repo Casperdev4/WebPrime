@@ -1032,7 +1032,7 @@ h1:nth-child(2) span::after {
     margin-left: 2%;
 }
 
-.etape-mobile h6 {
+.etape-mobile h5 {
     font-size: 18px;
     color: #222;
     text-align: left;
@@ -1944,7 +1944,7 @@ body {
         margin-left: 2%;
     }
 
-    .etape-mobile h6 {
+    .etape-mobile h5 {
         font-size: 0.93em;
         color: #222;
         text-align: left;
