@@ -654,7 +654,7 @@ h1:nth-child(2) span::after {
 
 .formu-gg {
     display: flex;
-    background-image: url("img-formu.png");
+    background-image: url("img-formu.webp");
     width: 100%;
 }
 
@@ -1292,8 +1292,6 @@ body {
         margin-top: 19%;
     }
 
-    /*  Navigation */
-
     .navbar {
         background-color: #ffbd59;
         padding: 10px;
@@ -1783,11 +1781,6 @@ body {
         margin-bottom: 2%;
     }
 
-    .iconwhatsapp {
-        color: #1bb600;
-        font-size: 22px;
-    }
-
     .icon-mail {
         font-size: 20px;
     }
@@ -2108,17 +2101,6 @@ body {
         color: #000000;
     }
 
-    .bouton_cpf {
-        background-color: black;
-        color: white;
-        width: fit-content;
-        padding: 5px 6px;
-        font-size: 13px;
-        margin-left: 75%;
-        margin-bottom: 7%;
-        border-radius: 20px;
-    }
-
     .image_secuinfo {
         display: flex;
         justify-content: center;
@@ -2128,63 +2110,6 @@ body {
 
     .image_secuinfo img {
         width: 80%;
-    }
-
-    .bouton-cpf-mob {
-        background-color: rgb(226, 226, 226);
-        color: rgb(21, 111, 255);
-        text-decoration: none;
-        padding: 10px 15px;
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        white-space: nowrap;
-        margin-bottom: 7%;
-        border-radius: 15px;
-        font-family: Helvetica, sans-serif;
-        border-color: black;
-        border-width: 1px;
-        border-style: dotted;
-    }
-
-    .bouton-cpf2-mob {
-        background-color: rgb(21, 111, 255);
-        color: white;
-        text-decoration: none;
-        padding: 10px 15px;
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        white-space: nowrap;
-        margin-bottom: 7%;
-        border-radius: 15px;
-        font-family: Helvetica, sans-serif;
-    }
-
-    .bouton-cpf3-mob {
-        background-color: rgb(9, 172, 0);
-        color: #ffff;
-        text-decoration: none;
-        padding: 10px 15px;
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        white-space: nowrap;
-        margin-bottom: 7%;
-        border-radius: 15px;
-        font-family: Helvetica, sans-serif;
     }
 
     .icon-anime {
@@ -2199,10 +2124,6 @@ body {
     .icon-anime img {
         width: 30%;
         height: 30%;
-    }
-
-    .icon-nav {
-        width: 40px;
     }
 
     .triple-image {
@@ -2317,6 +2238,5 @@ body {
         margin-top: 0;
         font-size: 26px;
     }
-
 
 }
