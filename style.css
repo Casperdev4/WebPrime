@@ -631,7 +631,7 @@ h1:nth-child(2) span::after {
 .formu-test button {
     padding: 15px;
     background: #0cbcf2;
-    color: #EDEDED;
+    color: #222;
     font-size: 18px;
     border: 0;
     outline: none;
@@ -1537,7 +1537,6 @@ body {
     .formu-test button {
         padding: 15px;
         background: #0cbcf2;
-        color: #EDEDED;
         font-size: 18px;
         border: 0;
         outline: none;
