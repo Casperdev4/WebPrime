@@ -132,10 +132,6 @@ p {
     margin-bottom: 1%;
 }
 
-.iconwhatsapp {
-    color: #1bb600;
-}
-
 .text-index {
     background-color: #e0e0e059;
     position: relative;
@@ -1050,102 +1046,6 @@ h1:nth-child(2) span::after {
     font-weight: 100;
     margin-left: 2%;
     margin-right: 2%;
-}
-
-.bouton_cpf {
-    background-color: black;
-    color: white;
-    width: fit-content;
-    padding: 5px 10px;
-    font-size: 15px;
-    margin-left: 80%;
-    border-radius: 30px;
-}
-
-.image_secuinfo {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.image_secuinfo img {
-    width: 520px;
-}
-
-.bouton-cpf123 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bouton-cpf {
-    background-color: rgb(226, 226, 226);
-    color: rgb(21, 111, 255);
-    text-decoration: none;
-    padding: 10px 15px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-    border-radius: 15px;
-    font-family: Helvetica, sans-serif;
-    border-color: black;
-    border-width: 1px;
-    border-style: dotted;
-}
-
-.bouton-cpf2 {
-    background-color: rgb(21, 111, 255);
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-    border-radius: 15px;
-    font-family: Helvetica, sans-serif;
-}
-
-.bouton-cpf3 {
-    background-color: rgb(9, 172, 0);
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-    border-radius: 15px;
-    font-family: Helvetica, sans-serif;
-}
-
-.icon-anime {
-    display: flex;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 8%;
-}
-
-.icon-anime img {
-    width: 20%;
-    height: 20%;
 }
 
 .video-index {
