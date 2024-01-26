@@ -1053,7 +1053,7 @@ h1:nth-child(2) span::after {
     overflow: hidden;
 }
 
-#background-video {
+#background-image {
     position: absolute;
     top: 0;
     left: 0;
