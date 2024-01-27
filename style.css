@@ -5,7 +5,6 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
-
 h1 {
     color: #ffffff;
     text-align: center;
@@ -13,7 +12,6 @@ h1 {
     margin-bottom: 5%;
     margin-top: 5%;
 }
-
 h2 {
     color: #222;
     text-align: center;
@@ -27,7 +25,6 @@ h2 {
     font-weight: 350;
     color: #222;
 }
-
 h3 {
     color: #222;
     text-align: center;
@@ -36,7 +33,6 @@ h3 {
     margin-bottom: 5%;
     margin-top: 5%;
 }
-
 .h3-etape {
     margin-left: 3%;
     margin-right: 3%;
@@ -47,7 +43,6 @@ h3 {
     font-weight: 350;
     color: #222;
 }
-
 h4 {
     margin-left: 3%;
     margin-right: 3%;
@@ -58,11 +53,9 @@ h4 {
     font-weight: 350;
     color: #222;
 }
-
 ul {
     color: #222;
 }
-
 p {
     color: #222;
     font-weight: 330;
@@ -75,7 +68,6 @@ p {
     line-height: 1.5;
     word-spacing: 5px;
 }
-
 .p-img123 {
     margin-top: 0;
     margin-left: auto;
@@ -84,7 +76,6 @@ p {
     padding-right: 2%;
     width: 100%;
 }
-
 .p-prelevement {
     background-color: #e0e0e059;
     padding-top: 5%;
@@ -97,33 +88,27 @@ p {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 .details-offres {
     text-align: left;
     margin-top: 7%;
     margin-bottom: 7%;
 }
-
 .hr {
     margin: auto;
     margin-top: 5%;
     width: 90%;
 }
-
 .liens-utiles {
     margin-top: 8%;
 }
-
 .liens-utiles a:hover {
     color: #0cbcf2;
 }
-
 .liens-utiles h2 {
     font-size: 25px;
     margin-bottom: 2%;
     margin-top: -1%;
 }
-
 .liens-utiles a {
     text-decoration: none;
     color: #555555;
@@ -131,7 +116,6 @@ p {
     text-align: center;
     margin-bottom: 1%;
 }
-
 .text-index {
     background-color: #e0e0e059;
     position: relative;
@@ -141,63 +125,52 @@ p {
     margin-bottom: 5%;
     margin-top: 5%;
 }
-
 .text-index2 {
     margin-bottom: 5%;
     margin-top: 5%;
 }
-
 .text-index2 p {
     text-align: left;
     margin-bottom: 5%;
     margin-top: 5%;
 }
-
 .texte-seo-2 p {
     text-align: left;
     line-height: 1.7;
 }
-
 .strong-color {
     color: #f79400;
     font-weight: 545;
 }
-
 .strong-color2 {
     color: #222;
     font-weight: 550;
 }
-
 .strong-color3 {
     color: #ffffff;
     font-weight: 545;
 }
-
 .site-catalogue p,
 .site-ecommerce p,
 .site-vitrine p {
     padding-bottom: 17px;
     margin-top: 5%;
 }
-
 .image_general {
     display: flex;
     justify-content: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 .image_general img {
     width: 520px;
     border-radius: 50px;
 }
-
 .images-index123 {
     display: flex;
     padding: 2%;
     gap: 1%;
 }
-
 .image123 {
     margin: 0;
     flex: 1;
@@ -214,16 +187,13 @@ p {
     margin-top: 5%;
     border-radius: 10%;
 }
-
 .image123+.image123 {
     margin-left: 10px;
 }
-
 .image-item {
     width: 80%;
     vertical-align: top;
 }
-
 .image-description {
     margin-top: 15px;
     background-color: #8ae7d7;
@@ -232,54 +202,44 @@ p {
     font-size: 21px;
     border-radius: 35px;
 }
-
 .image-description a {
     text-decoration: none;
     color: #000;
 }
-
 .image-description a:hover {
     color: #ffbd59;
     background-color: #457cfe;
     border-radius: 15px;
     padding: 5px;
 }
-
 .img-site-vitrine {
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
-
 .img-site-vitrine img {
     width: 30%;
     border-radius: 50%;
 }
-
 .img-site-catalogue {
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
-
 .img-site-catalogue img {
     width: 30%;
     border-radius: 50%;
 }
-
 .img-site-ecommerce {
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
-
 .img-site-ecommerce img {
     width: 30%;
     border-radius: 50%;
 }
-
 /*  Triple image */
-
 .triple-image {
     overflow: hidden;
     max-width: 960px;
@@ -287,7 +247,6 @@ p {
     box-shadow: 0px 15px 10px -5px #777;
     margin-bottom: 7%;
 }
-
 .triple-image-d1 {
     width: 3900px;
     height: 300px;
@@ -296,7 +255,6 @@ p {
     background-size: contain;
     animation: defilement1 50s linear infinite;
 }
-
 @keyframes defilement1 {
     0% {
         transform: translate(0, 0);
@@ -306,9 +264,7 @@ p {
         transform: translate(-2880px, 0);
     }
 }
-
 /*  Titre mouvent index */
-
 .titre-mouvent *,
 ::before,
 ::after {
@@ -316,14 +272,12 @@ p {
     margin: 0;
     padding: 0;
 }
-
 .titre-mouvent {
     width: 100%;
     margin: 0 auto;
     padding: 100px 20px 0;
     margin-bottom: 7%;
 }
-
 .titre-mouvent h1 {
     text-transform: uppercase;
     color: #222;
@@ -518,11 +472,6 @@ h1:nth-child(2) span::after {
     text-align: center;
     font-size: 0.9em;
     color: #000000;
-}
-
-.icon-cb {
-    color: #000000;
-    font-size: 20px;
 }
 
 .plan-web {
