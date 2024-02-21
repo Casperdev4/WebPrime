@@ -10,10 +10,10 @@ $comment = htmlspecialchars($_POST['comment']);
 
 $message = "Nom: $nom \n";
 $message .= "E-mail: $email \n";
-$message .= "Téléphone: $telephone \n";
-$message .= "Secteur d'activité: $domaines \n";
-$message .= "Site web souhaité: $site \n";
-$message .= "Référencement: $referencement \n";
+$message .= "Telephone: $telephone \n";
+$message .= "Secteur d'activite: $domaines \n";
+$message .= "Site web souhaite: $site \n";
+$message .= "Referencement: $referencement \n";
 $message .= "Commentaires: $comment \n"; 
 
 use PHPMailer\PHPMailer\PHPMailer;
