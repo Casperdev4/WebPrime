@@ -37,7 +37,7 @@ try {
     $mail->Port       = 465;
 
     // Recipients
-    $mail->setFrom('contact@webprime.fr', 'WebPrime');
+    $mail->setFrom('contact@webprime.fr', 'WEBPRIME');
     $mail->addAddress('contact@webprime.fr');
 
     // Content
