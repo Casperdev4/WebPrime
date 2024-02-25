@@ -8,13 +8,13 @@ $site = htmlspecialchars($_POST['site']);
 $referencement = htmlspecialchars($_POST['referencement']);
 $comment = htmlspecialchars($_POST['comment']);
 
-$message = "Nom: $nom \n";
-$message .= "E-mail: $email \n";
-$message .= "Telephone: $telephone \n";
-$message .= "Secteur d'activite: $domaines \n";
-$message .= "Site web souhaite: $site \n";
-$message .= "Referencement: $referencement \n";
-$message .= "Commentaires: $comment \n"; 
+$message = "Nom : $nom \n";
+$message .= "/ E-mail : $email \n";
+$message .= "/ Telephone : $telephone \n";
+$message .= "/ Secteur d'activite : $domaines \n";
+$message .= "/ Site web : $site \n";
+$message .= "/ Referencement : $referencement \n";
+$message .= "/ Commentaires : $comment \n"; 
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
