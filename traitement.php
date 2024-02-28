@@ -2,7 +2,6 @@
 
 $nom = htmlspecialchars($_POST['nom']);
 $email = htmlspecialchars($_POST['e-mail']);
-$telephone = htmlspecialchars($_POST['telephone']);
 $domaines = htmlspecialchars($_POST['domaines']);
 $site = htmlspecialchars($_POST['site']);
 $referencement = htmlspecialchars($_POST['referencement']);
@@ -10,7 +9,6 @@ $comment = htmlspecialchars($_POST['comment']);
 
 $message = "Nom : $nom \n";
 $message .= "/ E-mail : $email \n";
-$message .= "/ Telephone : $telephone \n";
 $message .= "/ Secteur : $domaines \n";
 $message .= "/ Site web : $site \n";
 $message .= "/ Referencement : $referencement \n";
