@@ -51,6 +51,7 @@
         <image:title>Nouvelle Clientèle</image:title>
     </image:image>
 </url>
+
 <url>
 <loc>https://webprime.fr/creation-site-internet.html</loc>
     <image:image>
@@ -69,6 +70,7 @@
         <image:title>Site E-commerce</image:title>
     </image:image>
 </url>
+
 <url>
 <loc>https://webprime.fr/referencement.html</loc>
     <image:image>
@@ -87,21 +89,27 @@
         <image:title>Google Ads</image:title>
     </image:image>
 </url>
+
 <url>
-<loc>https://webprime.fr/tarif-site-web.html</loc>
+<loc>https://webprime.fr/prix-site-internet.html</loc>
 </url>
+
 <url>
-<loc>https://webprime.fr/tarif-site-internet.html</loc>
+<loc>https://webprime.fr/prix-site-web.html</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/site-internet-thailande.html</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/pdc.html</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/mentionslegales.html</loc>
 </url>
+
 <url>
 <loc>https://webprime.fr/CGV.html</loc>
 </url>
