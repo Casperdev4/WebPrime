@@ -4,6 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
+
 <loc>https://webprime.fr</loc>
     <image:image>
         <image:loc>https://webprime.fr/creation-site-web.webp</image:loc>
@@ -50,6 +51,8 @@
         <image:caption>Profitez de nos tarifs compétitifs pour booster votre visibilité en ligne et attirer une nouvelle clientèle.</image:caption>
         <image:title>Nouvelle Clientèle</image:title>
     </image:image>
+    <geo:region>essonne</geo:region>
+    <geo:placename>essonne</geo:placename>
 </url>
 
 <url>
@@ -69,6 +72,8 @@
         <image:caption>Découvrez nos services de création de sites e-commerce attractifs et performants.</image:caption>
         <image:title>Site E-commerce</image:title>
     </image:image>
+        <geo:region>essonne</geo:region>
+        <geo:placename>essonne</geo:placename>
 </url>
 
 <url>
@@ -88,30 +93,56 @@
         <image:caption>Explorez nos services de gestion de campagnes Google Ads pour booster votre visibilité en ligne.</image:caption>
         <image:title>Google Ads</image:title>
     </image:image>
+        <geo:region>essonne</geo:region>
+        <geo:placename>essonne</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-internet.html</loc>
+    <geo:region>essonnee</geo:region>
+    <geo:placename>essonne</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-web.html</loc>
+    <geo:region>essonne</geo:region>
+    <geo:placename>essonne</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/site-internet-thailande.html</loc>
+    <geo:geo>
+        <geo:format>decimal</geo:format>
+        <geo:latitude>7.8804</geo:latitude>
+        <geo:longitude>98.3923</geo:longitude>
+    </geo:geo>
+    <geo:region>phuket</geo:region>
+    <geo:placename>phuket</geo:placename>
+        <geo:geo>
+        <geo:format>decimal</geo:format>
+        <geo:latitude>9.5120</geo:latitude>
+        <geo:longitude>100.0136</geo:longitude>
+    </geo:geo>
+    <geo:region>koh-samui</geo:region>
+    <geo:placename>koh-samui</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/pdc.html</loc>
+    <geo:region>essonne</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/mentionslegales.html</loc>
+    <geo:region>essonne</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/CGV.html</loc>
+    <geo:region>essonne</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 </urlset>
