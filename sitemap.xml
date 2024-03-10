@@ -9,47 +9,27 @@
     <image:image>
         <image:loc>https://webprime.fr/creation-site-web.webp</image:loc>
         <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
-        <image:title>WEBPRIME - Création de Sites internet</image:title>
+        <image:title>agence-web</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/siteweb.webp</image:loc>
         <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
-        <image:title>Création de Sites internet</image:title>
+        <image:title>creation-site-internet</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/referencement-seo.webp</image:loc>
         <image:caption>Améliorez la visibilité de votre site sur les moteurs de recherche avec nos services de référencement naturel.</image:caption>
-        <image:title>Référencement</image:title>
+        <image:title>seo</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/google-page-speed-insights.webp</image:loc>
         <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
-        <image:title>Google Page Speed Insights</image:title>
+        <image:title>google-referencement</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/page-speed-insights.webp</image:loc>
         <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
-        <image:title>Google Page Speed Insights</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/horloge.gif</image:loc>
-        <image:caption>Optimisez votre visibilité en ligne 24/7 avec nos tarifs compétitifs, attirez une nouvelle clientèle à tout moment.</image:caption>
-        <image:title>Visibilité 24/7</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/etiquette-de-prix.gif</image:loc>
-        <image:caption>Profitez de nos tarifs compétitifs pour booster votre visibilité en ligne et attirer une nouvelle clientèle.</image:caption>
-        <image:title>Site vitrine gratuit</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/cible.gif</image:loc>
-        <image:caption>Optimisez votre référencement naturel avec nos stratégie SEO.</image:caption>
-        <image:title>Référencement Naturel</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://webprime.fr/client.gif</image:loc>
-        <image:caption>Profitez de nos tarifs compétitifs pour booster votre visibilité en ligne et attirer une nouvelle clientèle.</image:caption>
-        <image:title>Nouvelle Clientèle</image:title>
+        <image:title>referencement-naturel</image:title>
     </image:image>
     <geo:region>essonne</geo:region>
     <geo:placename>essonne</geo:placename>
@@ -60,17 +40,17 @@
     <image:image>
         <image:loc>https://webprime.fr/site-vitrine.webp</image:loc>
         <image:caption>Découvrez nos services de création de sites vitrine gratuit.</image:caption>
-        <image:title>Site Vitrine Gratuit</image:title>
+        <image:title>site-vitrine</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/site-catalogue.webp</image:loc>
-        <image:caption>Découvrez nos services de création de sites catalogues attractifs et performants.</image:caption>
-        <image:title>Site Catalogue</image:title>
+        <image:caption>Découvrez nos services de création de sites professionnels attractifs et performants.</image:caption>
+        <image:title>creer-un-site-internet-professionnel-gratuit</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/site-e-commerce.webp</image:loc>
         <image:caption>Découvrez nos services de création de sites e-commerce attractifs et performants.</image:caption>
-        <image:title>Site E-commerce</image:title>
+        <image:title>creation-site-internet</image:title>
     </image:image>
         <geo:region>essonne</geo:region>
         <geo:placename>essonne</geo:placename>
@@ -81,17 +61,17 @@
     <image:image>
         <image:loc>https://webprime.fr/seo.webp</image:loc>
         <image:caption>Découvrez nos services de référencement naturel pour améliorer la visibilité de votre site.</image:caption>
-        <image:title>Référencement Naturel</image:title>
+        <image:title>referencement-google</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/sablier.gif</image:loc>
         <image:caption>La durée d'un bon référencement s'étend sur plusieurs années.</image:caption>
-        <image:title>Durée du Référencement Naturel</image:title>
+        <image:title>combien-de-temps-pour-referencer-un-site-sur-google</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/ads.webp</image:loc>
         <image:caption>Explorez nos services de gestion de campagnes Google Ads pour booster votre visibilité en ligne.</image:caption>
-        <image:title>Google Ads</image:title>
+        <image:title>referencement-sur-google</image:title>
     </image:image>
         <geo:region>essonne</geo:region>
         <geo:placename>essonne</geo:placename>
