@@ -107,22 +107,4 @@
     <geo:placename>koh-samui</geo:placename>
 </url>
 
-<url>
-<loc>https://webprime.fr/pdc.html</loc>
-    <geo:region>essonne</geo:region>
-    <geo:placename>Essonne</geo:placename>
-</url>
-
-<url>
-<loc>https://webprime.fr/mentionslegales.html</loc>
-    <geo:region>essonne</geo:region>
-    <geo:placename>Essonne</geo:placename>
-</url>
-
-<url>
-<loc>https://webprime.fr/CGV.html</loc>
-    <geo:region>essonne</geo:region>
-    <geo:placename>Essonne</geo:placename>
-</url>
-
 </urlset>
