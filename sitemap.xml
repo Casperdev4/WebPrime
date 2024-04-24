@@ -89,22 +89,4 @@
     <geo:placename>essonne</geo:placename>
 </url>
 
-<url>
-<loc>https://webprime.fr/site-internet-thailande.html</loc>
-    <geo:geo>
-        <geo:format>decimal</geo:format>
-        <geo:latitude>7.8804</geo:latitude>
-        <geo:longitude>98.3923</geo:longitude>
-    </geo:geo>
-    <geo:region>phuket</geo:region>
-    <geo:placename>phuket</geo:placename>
-        <geo:geo>
-        <geo:format>decimal</geo:format>
-        <geo:latitude>9.5120</geo:latitude>
-        <geo:longitude>100.0136</geo:longitude>
-    </geo:geo>
-    <geo:region>koh-samui</geo:region>
-    <geo:placename>koh-samui</geo:placename>
-</url>
-
 </urlset>
