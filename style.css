@@ -25,7 +25,7 @@
 }
 .strong-color{color:#f79400;font-weight:545}.strong-color2{color:#222;font-weight:550}.strong-color3{color:#fff;font-weight:545}
 .site-catalogue p,.site-ecommerce p,.site-vitrine p{padding-bottom:17px;margin-top:5%}
-.image_general{display:flex;justify-content:center;margin-top:5%;margin-bottom:5%}.image_general img{width:520px;border-radius:50px}
+.image_general{display:flex;justify-content:center;margin-top:5%;margin-bottom:5%}.image_general img{width:35%;border-radius:50px}
 .images-index123{display:flex;padding:2%;gap:1%}.image123{margin:5% 0;flex:1;position:relative;width:450px;padding:40px 0;font-size:5em;color:#191919;text-align:center;letter-spacing:2px;background:#fff;border-radius:10%}.image123+.image123{margin-left:10px}.image-item{width:80%;vertical-align:top}.image-description{margin-top:15px;background-color:#8ae7d7;padding:2%;text-align:center;font-size:21px;border-radius:35px;margin-left: 15%;margin-right: 15%;}.image-description a{text-decoration:none;color:#000}.image-description a:hover{color:#ffbd59;background-color:#457cfe;border-radius:15px;padding:5px}
 .img-site-vitrine{display:flex;justify-content:center;margin-top:5%}.img-site-vitrine img{width:30%;border-radius:50%}
 .img-site-catalogue{display:flex;justify-content:center;margin-top:5%}.img-site-catalogue img{width:30%;border-radius:50%}
@@ -54,7 +54,7 @@
     margin-top: 20%;
 }
 .icon-anime{display:flex;justify-content:center;flex-direction:column;align-items:center;margin-top:5%;margin-bottom:8%}.icon-anime img{width:30%;height:30%}
-.etape-mobile h4,.etape-mobile h5{color:#222;text-align:left;margin-left:2%}.etape-mobile{width:65%;background-color:#e0e0e059;padding:4% 3% 8%;margin:5% auto;box-shadow:2px 3px 0 2px #d0d0d0;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s}.etape-mobile.slide-in-done{opacity:1;transform:translateX(0)}.etape-mobile h4{font-weight:550;font-size:1.4em;margin-top:3%;margin-bottom:4%}.etape-mobile h5{font-size:18px;font-weight:100;margin-right:2%}
+.etape-mobile h4,.etape-mobile h5{color:#222;text-align:left;margin-left:2%}.etape-mobile{width:50%;background-color:#e0e0e059;padding:4% 3% 8%;margin:5% auto;box-shadow:2px 3px 0 2px #d0d0d0;opacity:0;transform:translateX(-50%);transition:opacity .5s,transform 1s}.etape-mobile.slide-in-done{opacity:1;transform:translateX(0)}.etape-mobile h4{font-weight:550;font-size:1.4em;margin-top:3%;margin-bottom:4%}.etape-mobile h5{font-size:18px;font-weight:100;margin-right:2%}
 .video-index-pc {
     width: 100%;
 }
