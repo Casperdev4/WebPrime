@@ -10,11 +10,11 @@ $referencement = htmlspecialchars($_POST['referencement'], ENT_QUOTES, 'UTF-8');
 $comment = htmlspecialchars($_POST['comment'], ENT_QUOTES, 'UTF-8');
 
 $message = "Nom : $nom \n";
-$message .= "/ E-mail : $email \n";
-$message .= "/ Secteur : $domaines \n";
-$message .= "/ Site web : $site \n";
-$message .= "/ Referencement : $referencement \n";
-$message .= "/ Commentaires : $comment \n"; 
+$message .= "E-mail : $email \n";
+$message .= "Secteur : $domaines \n";
+$message .= "Site web : $site \n";
+$message .= "Referencement : $referencement \n";
+$message .= "Commentaires : $comment \n"; 
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
