@@ -6,14 +6,12 @@ $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $email = htmlspecialchars($_POST['e-mail'], ENT_QUOTES, 'UTF-8');
 $domaines = htmlspecialchars($_POST['domaines'], ENT_QUOTES, 'UTF-8');
 $site = htmlspecialchars($_POST['site'], ENT_QUOTES, 'UTF-8');
-$referencement = htmlspecialchars($_POST['referencement'], ENT_QUOTES, 'UTF-8');
 $comment = htmlspecialchars($_POST['comment'], ENT_QUOTES, 'UTF-8');
 
 $message = "Nom : $nom \n";
 $message .= "E-mail : $email \n";
 $message .= "Secteur : $domaines \n";
 $message .= "Site web : $site \n";
-$message .= "Referencement : $referencement \n";
 $message .= "Commentaires : $comment \n"; 
 
 use PHPMailer\PHPMailer\PHPMailer;
