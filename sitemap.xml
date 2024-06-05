@@ -6,30 +6,30 @@
     <image:image>
         <image:loc>https://webprime.fr/creation-site-web.webp</image:loc>
         <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
-        <image:title>agence-web</image:title>
+        <image:title>agence web</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/siteweb.webp</image:loc>
         <image:caption>Découvrez nos services de conception et développement de sites web sur mesure.</image:caption>
-        <image:title>creation-site-internet</image:title>
+        <image:title>creation site internet</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/referencement-seo.webp</image:loc>
         <image:caption>Améliorez la visibilité de votre site sur les moteurs de recherche avec nos services de référencement naturel.</image:caption>
-        <image:title>seo</image:title>
+        <image:title>référencement site internet</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/google-page-speed-insights.webp</image:loc>
         <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
-        <image:title>google-referencement</image:title>
+        <image:title>referencement google</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/page-speed-insights.webp</image:loc>
         <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
-        <image:title>referencement-naturel</image:title>
+        <image:title>référencer site internet</image:title>
     </image:image>
-    <geo:region>essonne</geo:region>
-    <geo:placename>essonne</geo:placename>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 <url>
@@ -47,10 +47,10 @@
     <image:image>
         <image:loc>https://webprime.fr/site-e-commerce.webp</image:loc>
         <image:caption>Découvrez nos services de création de sites e-commerce attractifs et performants.</image:caption>
-        <image:title>creation-site-internet</image:title>
+        <image:title>creation site internet</image:title>
     </image:image>
-        <geo:region>essonne</geo:region>
-        <geo:placename>essonne</geo:placename>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 <url>
@@ -58,32 +58,32 @@
     <image:image>
         <image:loc>https://webprime.fr/seo.webp</image:loc>
         <image:caption>Découvrez nos services de référencement naturel pour améliorer la visibilité de votre site.</image:caption>
-        <image:title>referencement-google</image:title>
+        <image:title>referencement google</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/sablier.gif</image:loc>
         <image:caption>La durée d'un bon référencement s'étend sur plusieurs années.</image:caption>
-        <image:title>combien-de-temps-pour-referencer-un-site-sur-google</image:title>
+        <image:title>referencement site web</image:title>
     </image:image>
     <image:image>
         <image:loc>https://webprime.fr/ads.webp</image:loc>
         <image:caption>Explorez nos services de gestion de campagnes Google Ads pour booster votre visibilité en ligne.</image:caption>
-        <image:title>referencement-sur-google</image:title>
+        <image:title>referencement sur google</image:title>
     </image:image>
-        <geo:region>essonne</geo:region>
-        <geo:placename>essonne</geo:placename>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-internet.html</loc>
-    <geo:region>essonnee</geo:region>
-    <geo:placename>essonne</geo:placename>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-web.html</loc>
-    <geo:region>essonne</geo:region>
-    <geo:placename>essonne</geo:placename>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Essonne</geo:placename>
 </url>
 
 </urlset>
