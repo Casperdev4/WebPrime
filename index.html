@@ -62,7 +62,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-STS1SM1SZR"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-STS1SM1SZR');
     </script>
@@ -71,7 +71,8 @@
 <body>
     <nav class="navbar">
         <a href="index.html" class="logo-link">
-            <img src="./logo/agence-web.webp" alt="creation-site-internet-91-essonne" class="logo" loading="lazy" decoding="async">
+            <img src="./logo/agence-web.webp" alt="creation-site-internet-91-essonne" class="logo" loading="lazy"
+                decoding="async">
         </a>
         <label for="btn" class="icon">
             <svg viewBox="0 0 100 80" width="40" height="40">
@@ -115,7 +116,7 @@
                 <input type="email" id="email" name="e-mail" required placeholder="E-mail :">
                 <label for="domaines" class="sr-only">Secteur d'activité :</label>
                 <select id="domaines" name="domaines" required>
-                    <option value="SECTEUR D'ACTIVITE">SECTEUR D'ACTIVITÉ :</option>
+                    <option value="">SECTEUR D'ACTIVITÉ :</option>
                     <option value="BATIMENT">BÂTIMENT</option>
                     <option value="BEAUTE">BEAUTÉ</option>
                     <option value="COMMERCE">COMMERCE</option>
@@ -400,17 +401,18 @@
         });
     </script>
     <script>
-            function validateForm() {
-                var comments = document.getElementById("comment").value;
-                var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
-    
-                if (linkPattern.test(comment)) {
-                    alert("Les liens ne sont pas autorisés.");
-                    return false;
-                }
-                return true;
+        function validateForm() {
+            var comments = document.getElementById("comment").value;
+            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+
+            if (linkPattern.test(comments)) {
+                alert("Les liens ne sont pas autorisés.");
+                return false;
             }
+            return true;
+        }
     </script>
+
 </body>
 
 </html>
