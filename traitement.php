@@ -2,11 +2,21 @@
 
 header('Content-Type: text/html; charset=UTF-8');
 
+function contains_links($text) {
+    $linkPattern = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?/i";
+    return preg_match($linkPattern, $text);
+}
+
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $email = htmlspecialchars($_POST['e-mail'], ENT_QUOTES, 'UTF-8');
 $domaines = htmlspecialchars($_POST['domaines'], ENT_QUOTES, 'UTF-8');
 $site = htmlspecialchars($_POST['site'], ENT_QUOTES, 'UTF-8');
 $comment = htmlspecialchars($_POST['comment'], ENT_QUOTES, 'UTF-8');
+
+if (contains_links($comment)) {
+    echo "Les liens ne sont pas autorisés.";
+    exit();
+}
 
 $message = "Nom : $nom \n";
 $message .= "E-mail : $email \n";
