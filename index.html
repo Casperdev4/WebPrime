@@ -404,7 +404,7 @@
                 var comments = document.getElementById("comments").value;
                 var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
     
-                if (linkPattern.test(comments)) {
+                if (linkPattern.test(comment)) {
                     alert("Les liens ne sont pas autorisés.");
                     return false;
                 }
