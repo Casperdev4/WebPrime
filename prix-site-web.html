@@ -324,18 +324,18 @@
             });
         });
     </script>
-        <script>
-            function validateForm() {
-                var comments = document.getElementById("comments").value;
-                var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
-    
-                if (linkPattern.test(comment)) {
-                    alert("Les liens ne sont pas autorisés.");
-                    return false;
-                }
-                return true;
+    <script>
+        function validateForm() {
+            var comments = document.getElementById("comment").value;
+            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+
+            if (linkPattern.test(comment)) {
+                alert("Les liens ne sont pas autorisés.");
+                return false;
             }
-        </script>
+            return true;
+        }
+    </script>
 </body>
 
 </html>

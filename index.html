@@ -399,9 +399,9 @@
             });
         });
     </script>
-        <script>
+    <script>
             function validateForm() {
-                var comments = document.getElementById("comments").value;
+                var comments = document.getElementById("comment").value;
                 var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
     
                 if (linkPattern.test(comment)) {
@@ -410,7 +410,7 @@
                 }
                 return true;
             }
-        </script>
+    </script>
 </body>
 
 </html>
