@@ -2,9 +2,9 @@
 
 header('Content-Type: text/html; charset=UTF-8');
 
-function contains_links($text) {
-    $linkPattern = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?/i";
-    return preg_match($linkPattern, $text);
+function contains_links_or_scripts($text) {
+    $pattern = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?|<script[\s\S]*?<\/script>/i";
+    return preg_match($pattern, $text);
 }
 
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
@@ -13,8 +13,8 @@ $domaines = htmlspecialchars($_POST['domaines'], ENT_QUOTES, 'UTF-8');
 $site = htmlspecialchars($_POST['site'], ENT_QUOTES, 'UTF-8');
 $comment = htmlspecialchars($_POST['comment'], ENT_QUOTES, 'UTF-8');
 
-if (contains_links($comment)) {
-    echo "Les liens ne sont pas autorisés.";
+if (contains_links_or_scripts($comment)) {
+    echo "Les liens ou les scripts ne sont pas autorisés.";
     exit();
 }
 
@@ -56,3 +56,4 @@ try {
     echo "Message non envoyé. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
+

@@ -401,16 +401,16 @@
         });
     </script>
     <script>
-        function validateForm() {
-            var comments = document.getElementById("comment").value;
-            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+    function validateForm() {
+        var comment = document.getElementById("comment").value;
+        var pattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]|<script[\s\S]*?<\/script>/i;
 
-            if (linkPattern.test(comments)) {
-                alert("Les liens ne sont pas autorisés.");
-                return false;
-            }
-            return true;
+        if (pattern.test(comment)) {
+            alert("Pas autorisés.");
+            return false;
         }
+        return true;
+    }
     </script>
 </body>
 
