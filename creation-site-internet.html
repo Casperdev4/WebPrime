@@ -779,7 +779,7 @@
             var comments = document.getElementById("comment").value;
             var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
 
-            if (linkPattern.test(comment)) {
+            if (linkPattern.test(comments)) {
                 alert("Les liens ne sont pas autorisés.");
                 return false;
             }
