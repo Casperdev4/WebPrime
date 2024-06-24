@@ -28,8 +28,17 @@
         <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
         <image:title>référencer site internet</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Essonne</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Essonne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>1.9465</geo:west>
+                <geo:east>2.5436</geo:east>
+                <geo:north>48.7586</geo:north>
+                <geo:south>48.2607</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 
 <url>
@@ -49,8 +58,17 @@
         <image:caption>Découvrez nos services de création de sites e-commerce attractifs et performants.</image:caption>
         <image:title>creation site internet</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Essonne</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Essonne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>1.9465</geo:west>
+                <geo:east>2.5436</geo:east>
+                <geo:north>48.7586</geo:north>
+                <geo:south>48.2607</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 
 <url>
@@ -70,20 +88,47 @@
         <image:caption>Explorez nos services de gestion de campagnes Google Ads pour booster votre visibilité en ligne.</image:caption>
         <image:title>referencement sur google</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Essonne</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Essonne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>1.9465</geo:west>
+                <geo:east>2.5436</geo:east>
+                <geo:north>48.7586</geo:north>
+                <geo:south>48.2607</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-internet.html</loc>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Essonne</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Essonne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>1.9465</geo:west>
+                <geo:east>2.5436</geo:east>
+                <geo:north>48.7586</geo:north>
+                <geo:south>48.2607</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-web.html</loc>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Essonne</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Essonne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>1.9465</geo:west>
+                <geo:east>2.5436</geo:east>
+                <geo:north>48.7586</geo:north>
+                <geo:south>48.2607</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 
 </urlset>
