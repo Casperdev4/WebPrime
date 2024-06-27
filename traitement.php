@@ -43,7 +43,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
     $mail->setFrom('contact@webprime.fr', 'WEBPRIME');
-    $mail->addAddress('contact@webprime.fr');
+    $mail->addAddress('webprime91@hotmail.com');
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
     $mail->Subject = 'Formulaire';
