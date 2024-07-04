@@ -201,6 +201,8 @@ body {
     .icon-anime{display:flex;justify-content:center;flex-direction:column;align-items:center;margin-top:5%;margin-bottom:8%}.icon-anime img{width:30%;height:30%}
     .triple-image{overflow:hidden;max-width:960px;margin:50px auto 10%;box-shadow:0 15px 10px -5px #777}.triple-image-d1{width:3900px;height:200px;background-color:#ededed;background-image:url(tripleimageindex.svg);background-size:contain;animation:50s linear infinite defilement1}
     .formu-tarif,.image-description a:hover,.images-index123,.plan-avantage-container,.plan-carteee-container,.plan-tarif-container,.plan-web-container{display:none}
+    .contact-icon{display:flex;position:fixed;right:4%;bottom:3%}
+    .contact-icon img{display:block;width:60px;border-radius:20px}
 }
 @media screen and (max-width:376px) {
     .formu-test,.formu-tester{display:flex;display:flex}.formu-test h2{color:#5a5a5a;font-weight:400;margin-bottom:7%;font-size:23px}.formu-test{background:#fff;flex-direction:column;padding:2vw 4vw;width:80%;height:65%;border-radius:20px;align-items:center;justify-content:center}.formu-tester{width:100%;height:35vh;background-color:#8ae7d7;align-items:center;justify-content:center;margin-left:auto;margin-right:auto}
