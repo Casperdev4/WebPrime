@@ -32,12 +32,6 @@
             <geo:format>kml</geo:format>
             <geo:region>ile-de-france</geo:region>
             <geo:placename>Essonne</geo:placename>
-            <geo:BoundingBox>
-                <geo:west>2.1182</geo:west>
-                <geo:east>2.7081</geo:east>
-                <geo:north>49.0084</geo:north>
-                <geo:south>48.4183</geo:south>
-            </geo:BoundingBox>
         </geo:geo>
 </url>
 
@@ -62,12 +56,6 @@
             <geo:format>kml</geo:format>
             <geo:region>ile-de-france</geo:region>
             <geo:placename>Essonne</geo:placename>
-            <geo:BoundingBox>
-                <geo:west>2.1182</geo:west>
-                <geo:east>2.7081</geo:east>
-                <geo:north>49.0084</geo:north>
-                <geo:south>48.4183</geo:south>
-            </geo:BoundingBox>
         </geo:geo>
 </url>
 
@@ -92,12 +80,6 @@
             <geo:format>kml</geo:format>
             <geo:region>ile-de-france</geo:region>
             <geo:placename>Essonne</geo:placename>
-            <geo:BoundingBox>
-                <geo:west>2.1182</geo:west>
-                <geo:east>2.7081</geo:east>
-                <geo:north>49.0084</geo:north>
-                <geo:south>48.4183</geo:south>
-            </geo:BoundingBox>
         </geo:geo>
 </url>
 
@@ -107,12 +89,6 @@
             <geo:format>kml</geo:format>
             <geo:region>ile-de-france</geo:region>
             <geo:placename>Essonne</geo:placename>
-            <geo:BoundingBox>
-                <geo:west>2.1182</geo:west>
-                <geo:east>2.7081</geo:east>
-                <geo:north>49.0084</geo:north>
-                <geo:south>48.4183</geo:south>
-            </geo:BoundingBox>
         </geo:geo>
 </url>
 
@@ -122,12 +98,6 @@
             <geo:format>kml</geo:format>
             <geo:region>ile-de-france</geo:region>
             <geo:placename>Essonne</geo:placename>
-            <geo:BoundingBox>
-                <geo:west>2.1182</geo:west>
-                <geo:east>2.7081</geo:east>
-                <geo:north>49.0084</geo:north>
-                <geo:south>48.4183</geo:south>
-            </geo:BoundingBox>
         </geo:geo>
 </url>
 
