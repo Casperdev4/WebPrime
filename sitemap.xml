@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
 <loc>https://webprime.fr</loc>
@@ -28,11 +28,6 @@
         <image:caption>Mesurez et améliorez la vitesse de chargement de votre site web avec l'outil Google Page Speed Insights.</image:caption>
         <image:title>référencer site internet</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Essonne</geo:placename>
-        </geo:geo>
 </url>
 
 <url>
@@ -52,11 +47,6 @@
         <image:caption>Découvrez nos services de création de sites e-commerce attractifs et performants.</image:caption>
         <image:title>creation site internet</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Essonne</geo:placename>
-        </geo:geo>
 </url>
 
 <url>
@@ -76,29 +66,16 @@
         <image:caption>Explorez nos services de gestion de campagnes Google Ads pour booster votre visibilité en ligne.</image:caption>
         <image:title>referencement sur google</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Essonne</geo:placename>
-        </geo:geo>
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-internet.html</loc>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Essonne</geo:placename>
-        </geo:geo>
+
 </url>
 
 <url>
 <loc>https://webprime.fr/prix-site-web.html</loc>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Essonne</geo:placename>
-        </geo:geo>
+
 </url>
 
 </urlset>
