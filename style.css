@@ -2497,13 +2497,15 @@ a:hover {
     background: var(--primary-orange); color: var(--on-accent); font-size:11px; font-weight:700; letter-spacing:.5px;
     text-transform: uppercase; padding: 5px 14px; border-radius: 999px; box-shadow: var(--shadow-sm); white-space: nowrap; }
 
-.ent-top { position: fixed; bottom: 24px; right: 24px; width: 46px; height: 46px; border-radius: 50%;
-    background: var(--primary-orange); color: var(--on-accent); border: none; cursor: pointer; z-index: 1500;
+.ent-top { position: fixed; bottom: 24px; right: 24px; width: 48px; height: 48px; border-radius: 50%;
+    background: var(--primary-orange); color: var(--on-accent); border: 3px solid var(--ink); cursor: pointer; z-index: 1500;
     display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden;
-    transform: translateY(12px); transition: opacity .3s, transform .3s, box-shadow .3s; box-shadow: var(--shadow-sm); }
+    transform: translateY(12px); transition: opacity .3s, transform .12s ease, box-shadow .12s ease; box-shadow: var(--shadow-sm); }
 .ent-top.show { opacity: 1; visibility: visible; transform: none; }
-.ent-top:hover { transform: translateY(-3px); box-shadow: var(--shadow-sm); }
-@media (max-width: 768px) { .ent-top { bottom: 92px; right: 16px; width: 42px; height: 42px; } }
+.ent-top:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--ink); }
+@media (max-width: 768px) {
+    .ent-top { bottom: calc(110px + env(safe-area-inset-bottom, 0px)); right: 14px; width: 44px; height: 44px; }
+}
 
 .ent-sectors.is-marquee { flex-wrap: nowrap; overflow: hidden; justify-content: flex-start;
     -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
