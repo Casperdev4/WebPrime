@@ -2504,7 +2504,7 @@ a:hover {
 .ent-top.show { opacity: 1; visibility: visible; transform: none; }
 .ent-top:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--ink); }
 @media (max-width: 768px) {
-    .ent-top { bottom: calc(110px + env(safe-area-inset-bottom, 0px)); right: 14px; width: 44px; height: 44px; }
+    .ent-top { bottom: calc(106px + env(safe-area-inset-bottom, 0px)); right: 14px; width: 44px; height: 44px; }
 }
 
 .ent-sectors.is-marquee { flex-wrap: nowrap; overflow: hidden; justify-content: flex-start;
