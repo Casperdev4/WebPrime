@@ -1948,11 +1948,7 @@ a:hover {
             display: flex; align-items: center; justify-content: space-between;
             padding-top: 14px; padding-bottom: 14px;
         }
-        .ent-logo {
-            display: inline-flex; align-items: center; line-height: 0;
-            background: var(--ink); border: 3px solid var(--ink); border-radius: 12px;
-            padding: 7px 14px; box-shadow: var(--shadow-sm);
-        }
+        .ent-logo { display: block; line-height: 0; }
         .ent-logo-img { height: 46px; width: auto; display: block; }
         .ent-nav { display: flex; align-items: center; gap: 26px; }
         .ent-nav a { color: var(--ink); font-size: 14px; font-weight: 600; }
@@ -1985,7 +1981,7 @@ a:hover {
         }
         .ent-drawer.open { right: 0; }
         .ent-drawer-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px; border-bottom: 3px solid var(--ink); }
-        .ent-drawer-logo { height: 34px; width: auto; background: var(--ink); border: 3px solid var(--ink); border-radius: 10px; padding: 6px 10px; box-sizing: content-box; }
+        .ent-drawer-logo { height: 38px; width: auto; }
         .ent-drawer-close {
             flex-shrink: 0; width: 42px; height: 42px; display: flex; align-items: center; justify-content: center;
             background: var(--primary-orange); border: 3px solid var(--ink); border-radius: 10px;
@@ -2392,7 +2388,7 @@ a:hover {
         .header-simple {
             padding: 16px 0;
             background: var(--bg-page);
-            border-bottom: 1px solid #1a1a1a;
+            border-bottom: 3px solid var(--ink);
         }
         .header-simple .container {
             display: flex;
@@ -2634,3 +2630,14 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, input:focus-visible, 
 .legal p { color: var(--text-strong); font-size: 15px; line-height: 1.75; margin-bottom: 6px; }
 .legal a { color: var(--orange-ink); }
 .legal strong { color: var(--text-title); }
+
+.footer-logo {
+    height: 52px;
+    width: auto;
+    background: var(--bg-card);
+    border: 3px solid var(--bg-card);
+    border-radius: 10px;
+    padding: 8px 12px;
+    box-sizing: content-box;
+    margin-bottom: 18px;
+}
