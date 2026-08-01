@@ -2257,6 +2257,8 @@ a:hover {
                 padding: 8px; z-index: 1000; box-shadow: var(--shadow-md);
             }
             body { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+            body:has(.footer) { padding-bottom: 0; }
+            body:has(.footer) .footer { padding-bottom: calc(26px + 96px + env(safe-area-inset-bottom, 0px)); }
             .ent-section { padding: 44px 0; }
             .ent-hero { padding: 124px 0 52px; }
             .ent-hero .ent-hero-title { font-size: 33px; }
