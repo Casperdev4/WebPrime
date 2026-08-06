@@ -90,3 +90,30 @@
         updSim();
     }
 })();
+
+
+/* price-toggle */
+(function () {
+  var toggles = document.querySelectorAll('.price-toggle');
+  Array.prototype.forEach.call(toggles, function (tg) {
+    var card = tg.parentNode;
+    var price = card.querySelector('.ent-price');
+    var big = price ? price.querySelector('b') : null;
+    var hint = card.querySelector('.pt-hint');
+    var cta = card.querySelector('.pt-cta');
+    if (!price || !big) return;
+    Array.prototype.forEach.call(tg.querySelectorAll('.pt-btn'), function (btn) {
+      btn.addEventListener('click', function () {
+        Array.prototype.forEach.call(tg.querySelectorAll('.pt-btn'), function (b) {
+          b.classList.remove('active'); b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active'); btn.setAttribute('aria-selected', 'true');
+        var year = btn.getAttribute('data-plan') === 'year';
+        var val = year ? price.getAttribute('data-year') : price.getAttribute('data-month');
+        if (val) big.textContent = val;
+        if (hint) hint.hidden = !year;
+        if (cta) { var h = year ? cta.getAttribute('data-year-href') : cta.getAttribute('data-month-href'); if (h) cta.href = h; }
+      });
+    });
+  });
+})();
